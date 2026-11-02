@@ -1,0 +1,149 @@
+# =====================================================================
+#  Radar RFP Globecast : réglages
+#  C'est le SEUL fichier à modifier pour ajuster la veille.
+#  (Sur GitHub : ouvrir le fichier > icône crayon > modifier > "Commit changes")
+# =====================================================================
+
+# Nom affiché en haut de la page
+titre: "Radar RFP Globecast"
+
+# ---------------------------------------------------------------------
+# 1. Mots-clés du domaine Globecast
+#    Un appel d'offres est retenu s'il contient AU MOINS UN de ces mots
+#    (dans son titre ou sa description). Majuscules et accents ignorés.
+# ---------------------------------------------------------------------
+mots_cles:
+  # Français
+  - playout
+  - téléport
+  - liaison satellite
+  - transmission satellite
+  - capacité satellite
+  - segment spatial
+  - flux live
+  - flux vidéo
+  - flux de chaînes
+  - transport vidéo
+  - contribution vidéo
+  - distribution de chaînes
+  - diffusion de chaînes
+  - diffusion télévisuelle
+  - diffusion tv
+  - tête de réseau
+  - encodage vidéo
+  - transcodage
+  - régie de diffusion
+  - régie finale
+  - car régie
+  - captation vidéo
+  - retransmission en direct
+  - multiplex
+  # Anglais
+  - teleport
+  - satellite uplink
+  - uplink
+  - downlink
+  - satellite capacity
+  - space segment
+  - video transport
+  - live feed
+  - live feeds
+  - channel distribution
+  - channel origination
+  - broadcast services
+  - broadcast operations
+  - broadcast infrastructure
+  - headend
+  - head-end
+  - video encoding
+  - transcoding
+  - master control
+  - outside broadcast
+  - host broadcast
+  - host broadcaster
+  - live streaming
+  - video streaming
+  - media services
+  # Technos (FR + EN)
+  - ott
+  - iptv
+  - dvb
+  - srt
+  - playout cloud
+  - cloud playout
+
+# Mots qui écartent un résultat (sauf si son code CPV est clairement broadcast)
+mots_exclus:
+  - régie publicitaire
+  - achat d'espace
+  - nettoyage
+  - gardiennage
+
+# ---------------------------------------------------------------------
+# 2. Codes CPV (nomenclature des marchés publics)
+#    codes_cpv       : envoyés tels quels à TED
+#    prefixes_cpv    : tout code qui commence par ces chiffres est retenu
+# ---------------------------------------------------------------------
+codes_cpv:
+  - "64228000"   # Services de transmission de programmes de télévision et de radio
+  - "64228100"   # Transmission de programmes de télévision
+  - "64228200"   # Transmission de programmes radio
+  - "92200000"   # Services de radio et de télévision
+  - "92210000"   # Services de radio
+  - "92220000"   # Services de télévision
+  - "92221000"   # Services de production de télévision
+  - "92224000"   # Télévision numérique
+  - "92225000"   # Télévision interactive
+  - "92226000"   # Téléprogrammation
+prefixes_cpv:
+  - "64228"
+  - "922"
+
+# ---------------------------------------------------------------------
+# 3. Comptes cibles : tous leurs avis sont remontés, même hors mots-clés
+#    noms : les façons dont le nom peut apparaître dans un avis
+# ---------------------------------------------------------------------
+comptes_cibles:
+  - nom: "TV5MONDE"
+    noms: ["tv5monde", "tv5 monde"]
+  - nom: "France Médias Monde"
+    noms: ["france medias monde", "france médias monde", "france 24", "monte carlo doualiya", "francemm"]
+  - nom: "beIN"
+    noms: ["bein", "bein media group", "bein sports"]
+  - nom: "Canal+"
+    noms: ["canal+", "canal plus", "groupe canal"]
+
+# ---------------------------------------------------------------------
+# 4. Signaux presse (Google Actualités) : pour les acteurs privés qui
+#    ne publient pas sur les portails publics (beIN, Canal+...)
+# ---------------------------------------------------------------------
+recherches_presse:
+  - 'beIN "invitation to tender"'
+  - 'beIN tender broadcast'
+  - '"Canal+" "appel d''offres"'
+  - '"Canal+" tender broadcast'
+  - '"appel d''offres" playout'
+  - 'RFP playout broadcaster'
+  - '"request for proposal" playout'
+  - 'host broadcaster tender'
+
+# ---------------------------------------------------------------------
+# 5. Sources activées (true = oui, false = non)
+# ---------------------------------------------------------------------
+sources:
+  ted: true            # Europe (Journal officiel de l'UE)
+  boamp: true          # France
+  find_a_tender: true  # Royaume-Uni
+  sam_gov: true        # États-Unis (ne s'active que si une clé SAM_API_KEY est fournie)
+  presse: true         # Google Actualités
+
+# Historique récupéré au tout premier lancement (en jours)
+premier_lancement_jours:
+  ted: 60
+  ted_comptes_cibles: 365
+  boamp: 14
+  find_a_tender: 7
+  sam_gov: 30
+
+# Les avis plus vieux que ça disparaissent de la page (en jours)
+conservation_jours: 400

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Radar RFP Globecast</title>
+<style>
+  :root {
+    --bg: #f5f6f8; --card: #ffffff; --ink: #14202e; --muted: #5d6b7a; --faint: #8a96a3;
+    --line: #e3e7ec; --accent: #0b5cad; --accent-soft: #e8f1fb; --teal: #0e7c6b; --teal-soft: #e4f4f1;
+    --amber: #a35a00; --amber-soft: #fdf1e1; --red: #b42318; --red-soft: #fdecea; --violet: #5b3fb5; --violet-soft: #efebfb;
+    --radius: 10px;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+    font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+  header { background: #0f1c2b; color: #fff; padding: 26px 0 22px; }
+  header h1 { margin: 0; font-size: 24px; font-weight: 650; letter-spacing: -0.01em; }
+  header p { margin: 4px 0 0; color: #a9b6c4; font-size: 14px; }
+  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: -1px 0 0; padding: 20px 0 6px; }
+  .kpi { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; cursor: pointer; transition: border-color .15s; }
+  .kpi:hover { border-color: #b9c6d4; }
+  .kpi b { display: block; font-size: 26px; font-weight: 650; line-height: 1.15; }
+  .kpi span { color: var(--muted); font-size: 13px; }
+  .tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); margin-top: 18px; overflow-x: auto; }
+  .tab { appearance: none; border: 0; background: none; padding: 10px 14px; font: inherit; color: var(--muted);
+    cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; white-space: nowrap; }
+  .tab:hover { color: var(--ink); }
+  .tab.on { color: var(--ink); border-bottom-color: var(--accent); font-weight: 600; }
+  .tab .n { display: inline-block; min-width: 20px; padding: 0 6px; margin-left: 6px; border-radius: 10px;
+    background: #e9edf1; color: var(--muted); font-size: 12px; font-weight: 600; text-align: center; }
+  .tab.on .n { background: var(--accent-soft); color: var(--accent); }
+  .tools { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; padding: 14px 0; }
+  .tools input[type=search], .tools select { font: inherit; padding: 8px 11px; border: 1px solid var(--line);
+    border-radius: 8px; background: var(--card); color: var(--ink); }
+  .tools input[type=search] { flex: 1; min-width: 220px; }
+  .tools label { color: var(--muted); font-size: 14px; display: flex; gap: 6px; align-items: center; cursor: pointer; }
+  .intro { color: var(--muted); font-size: 14px; margin: 0 0 10px; }
+  .list { display: flex; flex-direction: column; gap: 10px; padding-bottom: 10px; }
+  .row { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px;
+    display: grid; grid-template-columns: 1fr 150px; gap: 16px; }
+  .row.target { border-left: 3px solid var(--violet); border-radius: 0 var(--radius) var(--radius) 0; }
+  .row h3 { margin: 0 0 3px; font-size: 15.5px; font-weight: 600; line-height: 1.35; }
+  .row h3 a { color: var(--ink); }
+  .row h3 a:hover { color: var(--accent); }
+  .meta { color: var(--muted); font-size: 13.5px; }
+  .chips { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 6px; margin-top: 8px; }
+  .chip { font-size: 12px; line-height: 18px; padding: 1px 8px; border-radius: 6px; background: #eef1f4; color: #3c4a59; white-space: nowrap; }
+  .chip.src { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+  .chip.why { background: var(--teal-soft); color: var(--teal); }
+  .chip.cible { background: var(--violet-soft); color: var(--violet); font-weight: 600; }
+  .chip.new { background: var(--amber-soft); color: var(--amber); font-weight: 600; }
+  .chip.award { background: #eef1f4; color: var(--muted); }
+  .side { text-align: right; font-size: 13px; color: var(--muted); }
+  .side .dl { font-size: 15px; font-weight: 650; color: var(--ink); }
+  .side .dl.soon { color: var(--red); }
+  .side .dl.past { color: var(--faint); font-weight: 500; text-decoration: line-through; }
+  .side .cd { display: inline-block; margin-top: 2px; padding: 1px 7px; border-radius: 6px; font-weight: 600; font-size: 12px; background: #eef1f4; }
+  .side .cd.soon { background: var(--red-soft); color: var(--red); }
+  .empty { background: var(--card); border: 1px dashed #cdd5de; border-radius: var(--radius); padding: 22px; color: var(--muted); text-align: center; }
+  .group { margin: 18px 0 8px; display: flex; align-items: baseline; gap: 10px; }
+  .group h2 { margin: 0; font-size: 17px; font-weight: 650; }
+  .group span { color: var(--muted); font-size: 13px; }
+  .more { display: block; margin: 6px auto 0; font: inherit; padding: 8px 16px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); cursor: pointer; color: var(--accent); }
+  footer { margin: 28px 0 40px; padding-top: 18px; border-top: 1px solid var(--line); }
+  footer h2 { font-size: 15px; margin: 0 0 10px; }
+  .srcs { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; }
+  .srcbox { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 10px 12px; font-size: 13px; }
+  .srcbox b { font-size: 14px; }
+  .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: 1px; background: var(--faint); }
+  .dot.ok { background: #12a150; } .dot.erreur { background: var(--red); }
+  .srcbox .msg { color: var(--muted); margin-top: 4px; word-break: break-word; }
+  .how { color: var(--muted); font-size: 13px; margin-top: 14px; }
+  @media (max-width: 760px) {
+    .kpis { grid-template-columns: repeat(2, 1fr); }
+    .row { grid-template-columns: 1fr; }
+    .side { text-align: left; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1 id="titre"></h1>
+    <p id="maj"></p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="kpis" id="kpis"></section>
+  <nav class="tabs" id="tabs"></nav>
+  <div class="tools">
+    <input type="search" id="q" placeholder="Rechercher (titre, acheteur, mot-clé…)">
+    <select id="src"><option value="">Toutes les sources</option></select>
+    <label id="awardsWrap"><input type="checkbox" id="awards"> Inclure les attributions</label>
+  </div>
+  <p class="intro" id="intro"></p>
+  <section id="content"></section>
+
+  <footer>
+    <h2>État des sources</h2>
+    <div class="srcs" id="srcs"></div>
+    <p class="how">Cette page se met à jour automatiquement chaque matin à partir de sources publiques ouvertes.
+      Les réglages (mots-clés, codes CPV, comptes cibles) se modifient dans le fichier <code>config.yaml</code> du projet.</p>
+  </footer>
+</main>
+
+<script>
+const DATA = {"titre": "Radar RFP Globecast", "maj": "2026-11-02T13:46:26Z", "aujourdhui": "2026-11-02", "comptes": ["TV5MONDE", "France Médias Monde", "beIN", "Canal+"], "sources": {}, "items": []};
+
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const TODAY = DATA.aujourdhui;
+const dayDiff = (a, b) => Math.round((new Date(a) - new Date(b)) / 86400000);
+const fmt = (d) => d ? new Date(d + "T12:00:00").toLocaleDateString("fr-FR", { day: "2-digit", month: "short", year: "numeric" }) : "";
+const isAward = (it) => /attribution|award|résultat/i.test(it.type || "");
+const isNew = (it) => it.vu_le && dayDiff(TODAY, it.vu_le) <= 7;
+const isOpen = (it) => it.nature === "rfp" && !isAward(it) &&
+  (it.date_limite ? it.date_limite >= TODAY : (it.publie && dayDiff(TODAY, it.publie) <= 45));
+// Avis du domaine Globecast (les avis "compte cible" hors domaine ne vont que dans l'onglet Comptes cibles)
+const rfps = DATA.items.filter(it => it.nature === "rfp" && (it.pourquoi || []).length);
+const signals = DATA.items.filter(it => it.nature === "signal");
+
+const TABS = [
+  { id: "new", label: "Nouveautés (7 j)", intro: "Appels d'offres détectés pour la première fois ces 7 derniers jours.",
+    pick: () => rfps.filter(isNew), sort: (a, b) => (b.vu_le + b.publie).localeCompare(a.vu_le + a.publie) },
+  { id: "open", label: "Ouverts", intro: "Appels d'offres encore ouverts, triés par date limite (les plus urgents en premier).",
+    pick: () => rfps.filter(isOpen), sort: (a, b) => (a.date_limite || "9999").localeCompare(b.date_limite || "9999"), noAwards: true },
+  { id: "targets", label: "Comptes cibles", intro: "Tout ce que publient les comptes suivis, y compris hors mots-clés.",
+    pick: () => DATA.items.filter(it => (it.comptes || []).length), sort: (a, b) => (b.publie || b.vu_le).localeCompare(a.publie || a.vu_le), grouped: true },
+  { id: "press", label: "Signaux presse", intro: "Articles récents qui évoquent des appels d'offres, utiles pour les acteurs privés qui ne publient pas sur les portails publics.",
+    pick: () => signals, sort: (a, b) => (b.publie || "").localeCompare(a.publie || ""), noAwards: true },
+  { id: "all", label: "Historique", intro: "Tous les avis retenus par le radar, du plus récent au plus ancien.",
+    pick: () => rfps, sort: (a, b) => (b.publie || b.vu_le).localeCompare(a.publie || a.vu_le) },
+];
+
+let current = "new", shown = 60;
+
+function filtered(tab) {
+  const q = $("q").value.trim().toLowerCase();
+  const src = $("src").value;
+  const withAwards = $("awards").checked;
+  return tab.pick().filter(it =>
+    (!src || it.source === src) &&
+    (tab.noAwards || withAwards || tab.id === "targets" || !isAward(it)) &&
+    (!q || [it.titre, it.acheteur, it.resume, ...(it.pourquoi || []), ...(it.comptes || [])].join(" ").toLowerCase().includes(q))
+  ).sort(tab.sort);
+}
+
+function row(it) {
+  const target = (it.comptes || []).length > 0;
+  let side = "";
+  if (it.date_limite) {
+    const d = dayDiff(it.date_limite, TODAY);
+    const cls = d < 0 ? "past" : (d <= 7 ? "soon" : "");
+    side = `<div>Date limite</div><div class="dl ${cls}">${fmt(it.date_limite)}</div>` +
+      (d >= 0 ? `<span class="cd ${d <= 7 ? "soon" : ""}">${d === 0 ? "aujourd'hui" : "J-" + d}</span>` : "");
+  } else if (it.nature === "rfp") {
+    side = `<div>Date limite</div><div class="dl" style="font-weight:500;color:var(--faint)">non précisée</div>`;
+  }
+  if (it.publie) side += `<div style="margin-top:6px">Publié le ${fmt(it.publie)}</div>`;
+  const chips = [
+    `<span class="chip src">${esc(it.source)}</span>`,
+    isNew(it) ? `<span class="chip new">Nouveau</span>` : "",
+    it.type ? `<span class="chip ${isAward(it) ? "award" : ""}">${esc(it.type)}</span>` : "",
+    ...(it.comptes || []).map(c => `<span class="chip cible">${esc(c)}</span>`),
+    ...(it.pourquoi || []).slice(0, 4).map(w => `<span class="chip why">${esc(w)}</span>`),
+  ].join("");
+  const meta = [it.acheteur, it.pays].filter(Boolean).map(esc).join(" · ");
+  return `<article class="row ${target ? "target" : ""}">
+    <div><h3><a href="${esc(it.lien)}" target="_blank" rel="noopener">${esc(it.titre || "(sans titre)")}</a></h3>
+      <div class="meta">${meta}</div><div class="chips">${chips}</div></div>
+    <div class="side">${side}</div></article>`;
+}
+
+function render() {
+  const tab = TABS.find(t => t.id === current);
+  $("tabs").querySelectorAll(".tab").forEach(b => b.classList.toggle("on", b.dataset.id === current));
+  $("intro").textContent = tab.intro;
+  $("awardsWrap").style.visibility = (tab.noAwards || tab.id === "targets") ? "hidden" : "visible";
+  const list = filtered(tab);
+  let out = "";
+  if (tab.grouped) {
+    for (const name of DATA.comptes) {
+      const sub = list.filter(it => it.comptes.includes(name));
+      const nRfp = sub.filter(it => it.nature === "rfp").length;
+      out += `<div class="group"><h2>${esc(name)}</h2><span>${nRfp} avis · ${sub.length - nRfp} article(s) de presse</span></div>`;
+      out += sub.length ? `<div class="list">${sub.slice(0, 40).map(row).join("")}</div>`
+        : `<div class="empty">Aucun avis public trouvé pour l'instant. C'est normal pour un acteur privé qui consulte ses prestataires directement, sans passer par les portails publics.</div>`;
+    }
+  } else {
+    out = list.length ? `<div class="list">${list.slice(0, shown).map(row).join("")}</div>` +
+      (list.length > shown ? `<button class="more" id="more">Afficher plus (${list.length - shown} restants)</button>` : "")
+      : `<div class="empty">Rien à afficher ici pour le moment.</div>`;
+  }
+  $("content").innerHTML = out;
+  const more = $("more");
+  if (more) more.onclick = () => { shown += 60; render(); };
+}
+
+function init() {
+  $("titre").textContent = DATA.titre;
+  const maj = new Date(DATA.maj);
+  $("maj").textContent = `Appels d'offres détectés automatiquement · mis à jour le ${maj.toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long" })} à ${maj.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" })}`;
+
+  const srcEntries = Object.entries(DATA.sources || {});
+  const okCount = srcEntries.filter(([, s]) => s.etat === "ok").length;
+  const kpis = [
+    { n: rfps.filter(it => isNew(it) && !isAward(it)).length, l: "nouveaux cette semaine", tab: "new" },
+    { n: rfps.filter(isOpen).length, l: "appels d'offres ouverts", tab: "open" },
+    { n: DATA.items.filter(it => (it.comptes || []).length).length, l: "liés aux comptes cibles", tab: "targets" },
+    { n: `${okCount}/${srcEntries.length}`, l: "sources à jour", tab: null },
+  ];
+  $("kpis").innerHTML = kpis.map(k => `<div class="kpi" data-tab="${k.tab || ""}"><b>${k.n}</b><span>${k.l}</span></div>`).join("");
+  $("kpis").querySelectorAll(".kpi").forEach(el => el.onclick = () => {
+    if (el.dataset.tab) { current = el.dataset.tab; shown = 60; render(); }
+    else document.querySelector("footer").scrollIntoView({ behavior: "smooth" });
+  });
+
+  $("tabs").innerHTML = TABS.map(t => `<button class="tab" data-id="${t.id}">${t.label}<span class="n">${t.pick().filter(it => t.noAwards || t.id === "targets" || !isAward(it)).length}</span></button>`).join("");
+  $("tabs").querySelectorAll(".tab").forEach(b => b.onclick = () => { current = b.dataset.id; shown = 60; render(); });
+
+  [...new Set(DATA.items.map(it => it.source))].sort().forEach(s => {
+    const o = document.createElement("option"); o.value = s; o.textContent = s; $("src").appendChild(o);
+  });
+  $("q").oninput = () => { shown = 60; render(); };
+  $("src").onchange = render;
+  $("awards").onchange = render;
+
+  $("srcs").innerHTML = srcEntries.map(([name, s]) => {
+    const when = s.dernier_succes ? new Date(s.dernier_succes).toLocaleDateString("fr-FR") : "jamais";
+    const label = { ok: "à jour", erreur: "en erreur", "désactivée": "désactivée" }[s.etat] || s.etat || "?";
+    return `<div class="srcbox"><b><span class="dot ${esc(s.etat)}"></span>${esc(name)}</b> · ${esc(label)}
+      <div class="msg">${esc(s.description || "")}${s.etat === "ok" ? ` · dernier succès : ${when} · ${s.trouves_dernier_passage ?? 0} trouvé(s)` : ""}</div>
+      ${s.message ? `<div class="msg">${esc(s.message)}</div>` : ""}</div>`;
+  }).join("") || `<div class="srcbox">En attente du premier passage. Sur GitHub : onglet <b>Actions</b>, puis <b>Radar RFP</b>, puis <b>Run workflow</b>.</div>`;
+
+  if (!rfps.some(isNew)) current = "open";
+  render();
+}
+init();
+</script>
+</body>
+</html>
