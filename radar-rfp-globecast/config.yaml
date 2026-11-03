@@ -2,47 +2,59 @@
 #  Radar RFP Globecast : réglages
 #  C'est le SEUL fichier à modifier pour ajuster la veille.
 #  (Sur GitHub : ouvrir le fichier > icône crayon > modifier > "Commit changes")
+#
+#  Attention à la syntaxe : chaque ligne de liste commence par "- "
+#  (un tiret PUIS un espace), avec la même indentation que les autres.
 # =====================================================================
 
-# Nom affiché en haut de la page
 titre: "Radar RFP Globecast"
 
 # ---------------------------------------------------------------------
-# 1. Mots-clés du domaine Globecast
-#    Un appel d'offres est retenu s'il contient AU MOINS UN de ces mots
-#    (dans son titre ou sa description). Majuscules et accents ignorés.
+# 1. COMMENT UN AVIS EST RETENU : système de points
+#    - mot-clé FORT trouvé       = 3 points
+#    - mot-clé FAIBLE trouvé     = 1 point chacun
+#    - code CPV broadcast        = 2 ou 3 points (voir plus bas)
+#    Un avis est affiché s'il atteint le SEUIL.
+#    => un mot fort suffit ; un mot faible seul ne suffit JAMAIS.
 # ---------------------------------------------------------------------
-mots_cles:
+seuil: 3
+
+# Mots forts : spécifiques au métier Globecast, un seul suffit
+# (FR et EN : les sites anglais, comme le Royaume-Uni et les US, n'ont pas de français)
+mots_cles_forts:
   # Français
   - playout
   - téléport
   - liaison satellite
+  - liaisons satellite
   - transmission satellite
   - capacité satellite
   - segment spatial
-  - flux live
-  - flux vidéo
   - flux de chaînes
+  - transport de flux
   - transport vidéo
   - contribution vidéo
   - distribution de chaînes
   - diffusion de chaînes
+  - diffusion des chaînes
   - diffusion télévisuelle
-  - diffusion tv
   - tête de réseau
   - encodage vidéo
-  - transcodage
   - régie de diffusion
   - régie finale
   - car régie
-  - captation vidéo
+  - car-régie
+  - diffusion satellite
+  - diffusion par satellite
+  - plateforme ott
+  - diffusion ott
+  - distribution ott
   - retransmission en direct
-  - multiplex
+  - multidiffusion
   # Anglais
   - teleport
   - satellite uplink
-  - uplink
-  - downlink
+  - satellite downlink
   - satellite capacity
   - space segment
   - video transport
@@ -50,59 +62,106 @@ mots_cles:
   - live feeds
   - channel distribution
   - channel origination
+  - channel playout
   - broadcast services
   - broadcast operations
   - broadcast infrastructure
   - headend
   - head-end
-  - video encoding
-  - transcoding
   - master control
   - outside broadcast
   - host broadcast
   - host broadcaster
+  - cloud playout
+  - playout cloud
+  - ott platform
+  - ott delivery
+
+# Mots faibles : utiles mais ambigus ; ils ne comptent que combinés
+# (2 mots faibles, ou 1 mot faible + un code CPV broadcast)
+mots_cles_faibles:
+  - broadcast
+  - broadcaster
+  - flux vidéo
+  - flux live
+  - diffusion tv
+  - transcodage
+  - transcoding
+  - captation vidéo
   - live streaming
   - video streaming
-  - media services
-  # Technos (FR + EN)
+  - streaming
   - ott
   - iptv
   - dvb
   - srt
-  - playout cloud
-  - cloud playout
+  - satellite
+  - uplink
+  - downlink
+  - chaîne de télévision
+  - chaîne tv
+  - television channel
+  - tv channel
+  - multiplex
 
-# Mots qui écartent un résultat (sauf si son code CPV est clairement broadcast)
+# Mots qui ÉCARTENT TOUJOURS un avis (bruit fréquent)
 mots_exclus:
+  # publicité / achat d'espace
   - régie publicitaire
   - achat d'espace
+  - achat d'espaces
+  # vidéosurveillance (gros pourvoyeur de "flux vidéo")
+  - vidéoprotection
+  - vidéo-protection
+  - vidéosurveillance
+  - video surveillance
+  - cctv
+  # captation des conseils municipaux, événements locaux
+  - conseil municipal
+  - conseils municipaux
+  - conseil communautaire
+  - séances du conseil
+  - assemblée délibérante
+  # télévision dans les hôpitaux, hôtels, EHPAD
+  - téléviseurs
+  - location de télévision
+  - télévision des patients
+  - patients
+  # cinéma
+  - cinéma
+  - salle de cinéma
+  # divers
   - nettoyage
   - gardiennage
+  - restauration collective
 
 # ---------------------------------------------------------------------
 # 2. Codes CPV (nomenclature des marchés publics)
-#    codes_cpv       : envoyés tels quels à TED
-#    prefixes_cpv    : tout code qui commence par ces chiffres est retenu
 # ---------------------------------------------------------------------
+# Envoyés tels quels à TED pour élargir la collecte
 codes_cpv:
-  - "64228000"   # Services de transmission de programmes de télévision et de radio
+  - "64228000"   # Transmission de programmes de télévision et de radio
   - "64228100"   # Transmission de programmes de télévision
   - "64228200"   # Transmission de programmes radio
   - "92200000"   # Services de radio et de télévision
-  - "92210000"   # Services de radio
   - "92220000"   # Services de télévision
-  - "92221000"   # Services de production de télévision
+  - "92221000"   # Production de télévision
   - "92224000"   # Télévision numérique
   - "92225000"   # Télévision interactive
   - "92226000"   # Téléprogrammation
-prefixes_cpv:
-  - "64228"
-  - "922"
+# Points accordés selon le début du code (le plus long qui correspond l'emporte)
+poids_cpv:
+  "64228": 3     # transmission TV/radio : suffit à lui seul
+  "9222": 3      # services de télévision : suffit à lui seul
+  "9221": 1      # radio : à combiner
+  "922": 2       # radio et TV (générique) : à combiner avec un mot faible
 
 # ---------------------------------------------------------------------
-# 3. Comptes cibles : tous leurs avis sont remontés, même hors mots-clés
-#    noms : les façons dont le nom peut apparaître dans un avis
+# 3. Comptes cibles
+#    Leurs avis sont remontés dès qu'ils ont au moins 1 point
+#    (mettre comptes_cibles_tout: true pour TOUT voir, même hors sujet)
 # ---------------------------------------------------------------------
+comptes_cibles_tout: false
 comptes_cibles:
   - nom: "TV5MONDE"
     noms: ["tv5monde", "tv5 monde"]
@@ -114,8 +173,37 @@ comptes_cibles:
     noms: ["canal+", "canal plus", "groupe canal"]
 
 # ---------------------------------------------------------------------
-# 4. Signaux presse (Google Actualités) : pour les acteurs privés qui
-#    ne publient pas sur les portails publics (beIN, Canal+...)
+# 4. Sites surveillés (Dematis, plateformes d'achat, sites de prospects...)
+#    Le radar ouvre chaque page tous les matins et signale les NOUVEAUX liens.
+#    - filtre: mots_cles  -> le lien doit atteindre le seuil de points
+#                            (1 point suffit si la page a un "compte")
+#    - filtre: tout       -> TOUTE nouvelle consultation est remontée, même hors sujet
+#    - motif_lien (optionnel) : ne garder que les liens contenant ce texte
+#    - compte (optionnel) : rattache les résultats à un compte cible
+#    Pour ajouter un prospect : copier un bloc de 4 lignes et changer nom + url
+#    (prendre la page "Appels d'offres / Tenders / Fournisseurs" de son site).
+# ---------------------------------------------------------------------
+pages_a_surveiller:
+  - nom: "TV5MONDE (plateforme Dematis)"
+    url: "https://tv5.e-marchespublics.com/"
+    filtre: mots_cles
+    motif_lien: "annonce_marche_public"
+    compte: "TV5MONDE"
+  - nom: "Dematis : annonces récentes"
+    url: "https://www.e-marchespublics.com/appel-offre"
+    filtre: mots_cles
+  - nom: "France Télévisions (plateforme achats)"
+    url: "https://www.appel-offres.francetelevisions.fr/?page=Entreprise.EntrepriseAdvancedSearch&AllCons"
+    filtre: mots_cles
+  # Exemple à compléter : page "Tenders" de beIN (coller l'adresse exacte)
+  # - nom: "beIN (tenders)"
+  #   url: "https://..."
+  #   filtre: mots_cles
+  #   compte: "beIN"
+
+# ---------------------------------------------------------------------
+# 5. Signaux presse (Google Actualités) : pour les acteurs privés
+#    Un article n'est gardé que si son titre parle vraiment d'appel d'offres
 # ---------------------------------------------------------------------
 recherches_presse:
   - 'beIN "invitation to tender"'
@@ -126,15 +214,30 @@ recherches_presse:
   - 'RFP playout broadcaster'
   - '"request for proposal" playout'
   - 'host broadcaster tender'
+presse_mots_obligatoires:
+  - appel d'offres
+  - appel d'offre
+  - appels d'offres
+  - consultation
+  - tender
+  - tenders
+  - rfp
+  - rfi
+  - rfq
+  - request for proposal
+  - invitation to tender
+  - procurement
+  - bid
 
 # ---------------------------------------------------------------------
-# 5. Sources activées (true = oui, false = non)
+# 6. Sources activées (true = oui, false = non)
 # ---------------------------------------------------------------------
 sources:
   ted: true            # Europe (Journal officiel de l'UE)
   boamp: true          # France
   find_a_tender: true  # Royaume-Uni
   sam_gov: true        # États-Unis (ne s'active que si une clé SAM_API_KEY est fournie)
+  sites: true          # Sites surveillés (section 4)
   presse: true         # Google Actualités
 
 # Historique récupéré au tout premier lancement (en jours)
