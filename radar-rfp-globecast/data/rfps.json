@@ -876,6 +876,7 @@
   "score": 3
  },
  {
+  "score": 0,
   "id": "Presse:https://news.google.com/rss/articles/CBMiggFBVV95cUxQRHd0SG80czB2VVNWSlo4THlObWhjbXhLdHNvNk9uX055elp5VC1yX3BBNTBfVGdzYUo1RmVPU19MUWo2Qk91dXhRNDJOZkFUSGJyVXB1MVl1MG44bGVzd3R3X3Q1aHpCR0Y2RGVwNkVHbFYyUmdmRGZtRnYzd2Exa2pR?oc=5",
   "source": "Presse",
   "ref": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRHd0SG80czB2VVNWSlo4THlObWhjbXhLdHNvNk9uX055elp5VC1yX3BBNTBfVGdzYUo1RmVPU19MUWo2Qk91dXhRNDJOZkFUSGJyVXB1MVl1MG44bGVzd3R3X3Q1aHpCR0Y2RGVwNkVHbFYyUmdmRGZtRnYzd2Exa2pR?oc=5",
@@ -893,8 +894,7 @@
   "comptes": [],
   "nature": "signal",
   "resume": "",
-  "vu_le": "2026-10-20",
-  "score": 0
+  "vu_le": "2026-10-20"
  },
  {
   "score": 0,
