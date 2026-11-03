@@ -1,0 +1,57 @@
+name: Radar RFP
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    defaults:
+      run:
+        working-directory: radar-rfp-globecast
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer
+        run: pip install -r requirements.txt
+
+      - name: Collecter les appels d'offres
+        run: python radar.py
+        env:
+          SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
+
+      - name: Enregistrer les résultats
+        run: |
+          git config user.name "radar-rfp"
+          git config user.email "radar-rfp@users.noreply.github.com"
+          git add data docs
+          git diff --cached --quiet || git commit -m "Radar RFP : mise à jour du $(date +%F)"
+          git push
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: radar-rfp-globecast/docs
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
