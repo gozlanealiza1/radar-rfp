@@ -131,12 +131,10 @@ const TABS = [
     pick: () => rfps.filter(isNew), sort: (a, b) => ((b.score || 0) >= 6) - ((a.score || 0) >= 6) || (b.vu_le + b.publie).localeCompare(a.vu_le + a.publie) },
   { id: "open", label: "Ouverts", intro: "Appels d'offres encore ouverts, triés par date limite (les plus urgents en premier).",
     pick: () => rfps.filter(isOpen), sort: (a, b) => (a.date_limite || "9999").localeCompare(b.date_limite || "9999"), noAwards: true },
-  { id: "targets", label: "Comptes cibles", intro: "Tout ce que publient les comptes suivis, y compris hors mots-clés.",
-    pick: () => DATA.items.filter(it => (it.comptes || []).length), sort: (a, b) => (b.publie || b.vu_le).localeCompare(a.publie || a.vu_le), grouped: true },
+   { id: "targets", label: "Comptes cibles", intro: "Appels d'offres encore ouverts des comptes suivis.",
+    pick: () => DATA.items.filter(it => (it.comptes || []).length && (!it.date_limite || it.date_limite >= TODAY) && !isAward(it)), sort: (a, b) => (b.publie || b.vu_le).localeCompare(a.publie || a.vu_le), grouped: true },
   { id: "press", label: "Signaux presse", intro: "Articles récents qui évoquent des appels d'offres, utiles pour les acteurs privés qui ne publient pas sur les portails publics.",
     pick: () => signals, sort: (a, b) => (b.publie || "").localeCompare(a.publie || ""), noAwards: true },
-  { id: "all", label: "Historique", intro: "Tous les avis retenus par le radar, du plus récent au plus ancien.",
-    pick: () => rfps, sort: (a, b) => (b.publie || b.vu_le).localeCompare(a.publie || a.vu_le) },
 ];
 
 let current = "new", shown = 60;
