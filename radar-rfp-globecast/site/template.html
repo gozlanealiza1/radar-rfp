@@ -55,6 +55,7 @@
   .chip.cible { background: var(--violet-soft); color: var(--violet); font-weight: 600; }
   .chip.new { background: var(--amber-soft); color: var(--amber); font-weight: 600; }
   .chip.award { background: #eef1f4; color: var(--muted); }
+  .chip.hot { background: #e6f4ea; color: #146c2e; font-weight: 600; }
   .side { text-align: right; font-size: 13px; color: var(--muted); }
   .side .dl { font-size: 15px; font-weight: 650; color: var(--ink); }
   .side .dl.soon { color: var(--red); }
@@ -120,14 +121,14 @@ const fmt = (d) => d ? new Date(d + "T12:00:00").toLocaleDateString("fr-FR", { d
 const isAward = (it) => /attribution|award|résultat/i.test(it.type || "");
 const isNew = (it) => it.vu_le && dayDiff(TODAY, it.vu_le) <= 7;
 const isOpen = (it) => it.nature === "rfp" && !isAward(it) &&
-  (it.date_limite ? it.date_limite >= TODAY : (it.publie && dayDiff(TODAY, it.publie) <= 45));
+  (it.date_limite ? it.date_limite >= TODAY : ((it.publie || it.vu_le) && dayDiff(TODAY, it.publie || it.vu_le) <= 45));
 // Avis du domaine Globecast (les avis "compte cible" hors domaine ne vont que dans l'onglet Comptes cibles)
 const rfps = DATA.items.filter(it => it.nature === "rfp" && (it.pourquoi || []).length);
 const signals = DATA.items.filter(it => it.nature === "signal");
 
 const TABS = [
   { id: "new", label: "Nouveautés (7 j)", intro: "Appels d'offres détectés pour la première fois ces 7 derniers jours.",
-    pick: () => rfps.filter(isNew), sort: (a, b) => (b.vu_le + b.publie).localeCompare(a.vu_le + a.publie) },
+    pick: () => rfps.filter(isNew), sort: (a, b) => ((b.score || 0) >= 6) - ((a.score || 0) >= 6) || (b.vu_le + b.publie).localeCompare(a.vu_le + a.publie) },
   { id: "open", label: "Ouverts", intro: "Appels d'offres encore ouverts, triés par date limite (les plus urgents en premier).",
     pick: () => rfps.filter(isOpen), sort: (a, b) => (a.date_limite || "9999").localeCompare(b.date_limite || "9999"), noAwards: true },
   { id: "targets", label: "Comptes cibles", intro: "Tout ce que publient les comptes suivis, y compris hors mots-clés.",
@@ -166,6 +167,7 @@ function row(it) {
   const chips = [
     `<span class="chip src">${esc(it.source)}</span>`,
     isNew(it) ? `<span class="chip new">Nouveau</span>` : "",
+    (it.score || 0) >= 6 ? `<span class="chip hot">Très pertinent</span>` : "",
     it.type ? `<span class="chip ${isAward(it) ? "award" : ""}">${esc(it.type)}</span>` : "",
     ...(it.comptes || []).map(c => `<span class="chip cible">${esc(c)}</span>`),
     ...(it.pourquoi || []).slice(0, 4).map(w => `<span class="chip why">${esc(w)}</span>`),
