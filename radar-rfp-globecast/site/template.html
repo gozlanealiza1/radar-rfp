@@ -211,10 +211,7 @@ function init() {
 
   const srcEntries = Object.entries(DATA.sources || {});
   const okCount = srcEntries.filter(([, s]) => s.etat === "ok").length;
-  const kpis = [
-    { n: rfps.filter(it => isNew(it) && !isAward(it)).length, l: "nouveaux cette semaine", tab: "new" },
-    { n: rfps.filter(isOpen).length, l: "appels d'offres ouverts", tab: "open" },
-    { n: DATA.items.filter(it => (it.comptes || []).length).length, l: "liés aux comptes cibles", tab: "targets" },
+    const kpis = [
     { n: `${okCount}/${srcEntries.length}`, l: "sources à jour", tab: null },
   ];
   $("kpis").innerHTML = kpis.map(k => `<div class="kpi" data-tab="${k.tab || ""}"><b>${k.n}</b><span>${k.l}</span></div>`).join("");
