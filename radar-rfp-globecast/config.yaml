@@ -184,17 +184,14 @@ comptes_cibles:
 #    (prendre la page "Appels d'offres / Tenders / Fournisseurs" de son site).
 # ---------------------------------------------------------------------
 pages_a_surveiller:
-  - nom: "TV5MONDE (plateforme Dematis)"
-    url: "https://tv5.e-marchespublics.com/"
-    filtre: mots_cles
-    motif_lien: "annonce_marche_public"
-    compte: "TV5MONDE"
-  - nom: "Dematis : annonces récentes"
-    url: "https://www.e-marchespublics.com/appel-offre"
-    filtre: mots_cles
-  - nom: "France Télévisions (plateforme achats)"
-    url: "https://www.appel-offres.francetelevisions.fr/?page=Entreprise.EntrepriseAdvancedSearch&AllCons"
-    filtre: mots_cles
+  # - nom: "TV5MONDE (plateforme Dematis)"
+  #   url: "https://tv5.e-marchespublics.com/"
+  #   filtre: mots_cles
+  #   motif_lien: "annonce_marche_public"
+  #   compte: "TV5MONDE"
+  # - nom: "Dematis : annonces récentes"
+  #   url: "https://www.e-marchespublics.com/appel-offre"
+  #   filtre: mots_cles
   # Exemple à compléter : page "Tenders" de beIN (coller l'adresse exacte)
   # - nom: "beIN (tenders)"
   #   url: "https://..."
