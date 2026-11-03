@@ -1,0 +1,41 @@
+{
+ "sources": {
+  "TED": {
+   "description": "Europe : Journal officiel de l'UE",
+   "etat": "ok",
+   "dernier_essai": "2026-11-03T09:20:09Z",
+   "dernier_succes": "2026-11-03T09:20:09Z",
+   "trouves_dernier_passage": 253,
+   "message": ""
+  },
+  "BOAMP": {
+   "description": "France : marchés publics",
+   "etat": "ok",
+   "dernier_essai": "2026-11-03T09:20:09Z",
+   "dernier_succes": "2026-11-03T09:20:09Z",
+   "trouves_dernier_passage": 2,
+   "message": ""
+  },
+  "Find a Tender (UK)": {
+   "description": "Royaume-Uni",
+   "etat": "erreur",
+   "dernier_essai": "2026-11-03T09:20:09Z",
+   "message": "HTTPError : 429 Client Error: Too Many Requests for url: https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages?updatedFrom=2026-10-27T00:00:00&limit=100&updatedTo=2026-11-03T09:21:29&cursor=dXBkYXRlZEZyb209MjAyNi0xMC0yN1QwMDowMDowMHx1cGRhdGVkVG89MjAyNi0xMS0wM1QwOToyMToyOXxuZXh0Q3Vyc29yPTc1MzU4Ng=="
+  },
+  "SAM.gov (US)": {
+   "description": "États-Unis : marchés fédéraux",
+   "etat": "désactivée",
+   "message": "Désactivé : ajoutez une clé SAM_API_KEY pour les États-Unis (voir le guide).",
+   "dernier_essai": "2026-11-03T09:20:09Z"
+  },
+  "Presse": {
+   "description": "Google Actualités : acteurs privés",
+   "etat": "ok",
+   "dernier_essai": "2026-11-03T09:20:09Z",
+   "dernier_succes": "2026-11-03T09:20:09Z",
+   "trouves_dernier_passage": 66,
+   "message": ""
+  }
+ },
+ "dernier_passage": "2026-11-03T09:20:09Z"
+}
