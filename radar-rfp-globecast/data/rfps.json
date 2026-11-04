@@ -1,6 +1,32 @@
 [
  {
   "score": 3,
+  "id": "TED:765498-2026",
+  "source": "TED",
+  "ref": "765498-2026",
+  "titre": "Pologne – Services de télévision – Świadczenie usługi dostępu do sygnału RTV w budynkach należących do Oddziału Regionalnego Agencji Mienia Wojskowego w Szczecinie (obszar: Koszalin, Świnoujście, Stargard)”",
+  "acheteur": "Agencja Mienia Wojskowego",
+  "pays": "POL",
+  "publie": "2026-11-04",
+  "date_limite": "",
+  "lien": "https://ted.europa.eu/fr/notice/-/detail/765498-2026",
+  "type": "Attribution",
+  "cpv": [
+   "92220000",
+   "92220000",
+   "92220000",
+   "92220000"
+  ],
+  "pourquoi": [
+   "CPV 92220000"
+  ],
+  "comptes": [],
+  "nature": "rfp",
+  "resume": "",
+  "vu_le": "2026-11-04"
+ },
+ {
+  "score": 3,
   "id": "TED:760749-2026",
   "source": "TED",
   "ref": "760749-2026",
@@ -50,6 +76,71 @@
   "nature": "signal",
   "resume": "",
   "vu_le": "2026-11-03"
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMiqgFBVV95cUxORHRwNXRWRDJPY29CWklVWTNwa2cxYTZPU2FFME05REJ3dms4M29jMFBhTW9iSmMtQ1QzdnNIbFpHdmpqQUlKR3lCN0tpMXc1VkdzWnlLUUxwbXVQbnJhZnpfVDNxTGhXRlNkSUptbW0yNlpxRFRvQTA1bzlPQ2xQeVQxdFQxWnBmWFNscFplaGpGOUlibjBmN29zSTA3U3lNbklaN0Zremo5Zw?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORHRwNXRWRDJPY29CWklVWTNwa2cxYTZPU2FFME05REJ3dms4M29jMFBhTW9iSmMtQ1QzdnNIbFpHdmpqQUlKR3lCN0tpMXc1VkdzWnlLUUxwbXVQbnJhZnpfVDNxTGhXRlNkSUptbW0yNlpxRFRvQTA1bzlPQ2xQeVQxdFQxWnBmWFNscFplaGpGOUlibjBmN29zSTA3U3lNbklaN0Zremo5Zw?oc=5",
+  "titre": "Ligue 1 seeks long-term TV deal as 2027-32 rights tender opens - The Straits Times",
+  "acheteur": "The Straits Times",
+  "pays": "",
+  "publie": "2026-11-03",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORHRwNXRWRDJPY29CWklVWTNwa2cxYTZPU2FFME05REJ3dms4M29jMFBhTW9iSmMtQ1QzdnNIbFpHdmpqQUlKR3lCN0tpMXc1VkdzWnlLUUxwbXVQbnJhZnpfVDNxTGhXRlNkSUptbW0yNlpxRFRvQTA1bzlPQ2xQeVQxdFQxWnBmWFNscFplaGpGOUlibjBmN29zSTA3U3lNbklaN0Zremo5Zw?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : beIN tender broadcast"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-04"
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSFN0akVTU083bFEtTngtNnZOOWJ1eTZPWURpZklfNGJRdHhabjFVd1cxNm1yTW9yX2Y1YWVCXzRyM1VVN2lZWTBYOHFXaGtTZGVQMFNIUDFiWDRvUXI5VktzVXQ1TUlQVDVfZ3QzVXJBWmxBLXNtQTBnZFVkVHRrMWdfWl9KZWhNcUs4bl9VUG8xUElYNHpOcXVGNnh3SzZzNnAwc29ibl9VQQ?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSFN0akVTU083bFEtTngtNnZOOWJ1eTZPWURpZklfNGJRdHhabjFVd1cxNm1yTW9yX2Y1YWVCXzRyM1VVN2lZWTBYOHFXaGtTZGVQMFNIUDFiWDRvUXI5VktzVXQ1TUlQVDVfZ3QzVXJBWmxBLXNtQTBnZFVkVHRrMWdfWl9KZWhNcUs4bl9VUG8xUElYNHpOcXVGNnh3SzZzNnAwc29ibl9VQQ?oc=5",
+  "titre": "Le rêve Canal+ : La Ligue 1 lance son appel d’offres pour ses droits TV - Le Petit Lillois",
+  "acheteur": "Le Petit Lillois",
+  "pays": "",
+  "publie": "2026-11-03",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSFN0akVTU083bFEtTngtNnZOOWJ1eTZPWURpZklfNGJRdHhabjFVd1cxNm1yTW9yX2Y1YWVCXzRyM1VVN2lZWTBYOHFXaGtTZGVQMFNIUDFiWDRvUXI5VktzVXQ1TUlQVDVfZ3QzVXJBWmxBLXNtQTBnZFVkVHRrMWdfWl9KZWhNcUs4bl9VUG8xUElYNHpOcXVGNnh3SzZzNnAwc29ibl9VQQ?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : \"Canal+\" \"appel d'offres\""
+  ],
+  "comptes": [
+   "Canal+"
+  ],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-04"
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMieEFVX3lxTE1lbnVnUnk2cUpsTmFzcTlFVklheUgzZHBRTHE3RUYxbkRKWmtkQnpaWEpmT1JPb00xTmFxS0QzaHN1d2V6QzVQTkFVNUlLT3h2ZDVkcVJzeWFtd2Y1OHJCQVJweHo0b1QzaklLNVp1Zk85WUlZNmxncA?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1lbnVnUnk2cUpsTmFzcTlFVklheUgzZHBRTHE3RUYxbkRKWmtkQnpaWEpmT1JPb00xTmFxS0QzaHN1d2V6QzVQTkFVNUlLT3h2ZDVkcVJzeWFtd2Y1OHJCQVJweHo0b1QzaklLNVp1Zk85WUlZNmxncA?oc=5",
+  "titre": "Granby to bid for 2031 summer Jeux du Québec - The Pulse of the Eastern Townships",
+  "acheteur": "The Pulse of the Eastern Townships",
+  "pays": "",
+  "publie": "2026-11-03",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1lbnVnUnk2cUpsTmFzcTlFVklheUgzZHBRTHE3RUYxbkRKWmtkQnpaWEpmT1JPb00xTmFxS0QzaHN1d2V6QzVQTkFVNUlLT3h2ZDVkcVJzeWFtd2Y1OHJCQVJweHo0b1QzaklLNVp1Zk85WUlZNmxncA?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : host broadcaster tender"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-04"
  },
  {
   "score": 5,
@@ -127,6 +218,27 @@
   "nature": "rfp",
   "resume": "",
   "vu_le": "2026-11-02"
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcTNERlpGZ1piU2tKUWNLdmxUZTA3VnExVmtZcm04S1Q1ZHNmVVZHdXFHaWZveU10UXZyNkpCNlpNUmkwT1JDUXhGRWcwR0dWeEFuSE5zamVJbTluSEh0Y2dVb201WFIwQVNIeWctV1JyNzh6WmpSaHpHbDJ6eFNGaHRoUU5qUUhCRGxRRm5acnpmeWRXR1ItRnZhYUZxR3lMT0ktdklUbGFyOWppM1Q3UlFhWlYzazMxRUFLY3g0M0rSAcABQVVfeXFMTnEzREZaRmdaYlNrSlFjS3ZsVGUwN1ZxMVZrWXJtOEtUNWRzZlVWR3VxR2lmb3lNdFF2cjZKQjZaTVJpME9SQ1F4RkVnMEdHVnhBbkhOc2plSW05bkhIdGNnVW9tNVhSMEFTSHlnLVdScjc4elpqUmh6R2wyenhTRmh0aFFOalFIQkRsUUZuWnJ6ZnlkV0dSLUZ2YWFGcUd5TE9JLXZJVGxhcjlqaTNUN1JRYVpWM2szMUVBS2N4NDNK?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcTNERlpGZ1piU2tKUWNLdmxUZTA3VnExVmtZcm04S1Q1ZHNmVVZHdXFHaWZveU10UXZyNkpCNlpNUmkwT1JDUXhGRWcwR0dWeEFuSE5zamVJbTluSEh0Y2dVb201WFIwQVNIeWctV1JyNzh6WmpSaHpHbDJ6eFNGaHRoUU5qUUhCRGxRRm5acnpmeWRXR1ItRnZhYUZxR3lMT0ktdklUbGFyOWppM1Q3UlFhWlYzazMxRUFLY3g0M0rSAcABQVVfeXFMTnEzREZaRmdaYlNrSlFjS3ZsVGUwN1ZxMVZrWXJtOEtUNWRzZlVWR3VxR2lmb3lNdFF2cjZKQjZaTVJpME9SQ1F4RkVnMEdHVnhBbkhOc2plSW05bkhIdGNnVW9tNVhSMEFTSHlnLVdScjc4elpqUmh6R2wyenhTRmh0aFFOalFIQkRsUUZuWnJ6ZnlkV0dSLUZ2YWFGcUd5TE9JLXZJVGxhcjlqaTNUN1JRYVpWM2szMUVBS2N4NDNK?oc=5",
+  "titre": "Ligue 1 seeks long-term TV deal as 2027-32 rights tender opens | Gulf Times - Gulf Times",
+  "acheteur": "Gulf Times",
+  "pays": "",
+  "publie": "2026-11-02",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcTNERlpGZ1piU2tKUWNLdmxUZTA3VnExVmtZcm04S1Q1ZHNmVVZHdXFHaWZveU10UXZyNkpCNlpNUmkwT1JDUXhGRWcwR0dWeEFuSE5zamVJbTluSEh0Y2dVb201WFIwQVNIeWctV1JyNzh6WmpSaHpHbDJ6eFNGaHRoUU5qUUhCRGxRRm5acnpmeWRXR1ItRnZhYUZxR3lMT0ktdklUbGFyOWppM1Q3UlFhWlYzazMxRUFLY3g0M0rSAcABQVVfeXFMTnEzREZaRmdaYlNrSlFjS3ZsVGUwN1ZxMVZrWXJtOEtUNWRzZlVWR3VxR2lmb3lNdFF2cjZKQjZaTVJpME9SQ1F4RkVnMEdHVnhBbkhOc2plSW05bkhIdGNnVW9tNVhSMEFTSHlnLVdScjc4elpqUmh6R2wyenhTRmh0aFFOalFIQkRsUUZuWnJ6ZnlkV0dSLUZ2YWFGcUd5TE9JLXZJVGxhcjlqaTNUN1JRYVpWM2szMUVBS2N4NDNK?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : beIN tender broadcast"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-04"
  },
  {
   "id": "TED:753034-2026",
@@ -871,6 +983,27 @@
   "vu_le": "2026-11-03"
  },
  {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcGRSTmlpel9DZm5NSkZMejUzR1JDNG03WmZsWkU5THJpVWpEZ0dFZ2VxQUUxeE9DS2xDS19vOU40WlVyOGhwMENnM1Zua3FJelhuOGtZQUw5dEY1ZEpGZXdvTHZwbFgzZDNfMjRlUGluMFFKWmZJWHNlNDYwMWxSR1NZVkZ5ZThUc0RGOEVWNUdIOV9lQXBZS3hVcTc5Y0lIYVVVUHZ2MVJQYmRTSmRrdTdvS3N5TWtWUzFMbTl0Rm42enZtb0JMT2huaHZ5ZFVET1QwUEtud0VCdkd2WmphSEVGTXU?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcGRSTmlpel9DZm5NSkZMejUzR1JDNG03WmZsWkU5THJpVWpEZ0dFZ2VxQUUxeE9DS2xDS19vOU40WlVyOGhwMENnM1Zua3FJelhuOGtZQUw5dEY1ZEpGZXdvTHZwbFgzZDNfMjRlUGluMFFKWmZJWHNlNDYwMWxSR1NZVkZ5ZThUc0RGOEVWNUdIOV9lQXBZS3hVcTc5Y0lIYVVVUHZ2MVJQYmRTSmRrdTdvS3N5TWtWUzFMbTl0Rm42enZtb0JMT2huaHZ5ZFVET1QwUEtud0VCdkd2WmphSEVGTXU?oc=5",
+  "titre": "Un appel d'offres pour les droits TV de la Ligue 1 en 2027-2032 sera bien lancé dès cette année - L'Équipe",
+  "acheteur": "L'Équipe",
+  "pays": "",
+  "publie": "2026-10-21",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcGRSTmlpel9DZm5NSkZMejUzR1JDNG03WmZsWkU5THJpVWpEZ0dFZ2VxQUUxeE9DS2xDS19vOU40WlVyOGhwMENnM1Zua3FJelhuOGtZQUw5dEY1ZEpGZXdvTHZwbFgzZDNfMjRlUGluMFFKWmZJWHNlNDYwMWxSR1NZVkZ5ZThUc0RGOEVWNUdIOV9lQXBZS3hVcTc5Y0lIYVVVUHZ2MVJQYmRTSmRrdTdvS3N5TWtWUzFMbTl0Rm42enZtb0JMT2huaHZ5ZFVET1QwUEtud0VCdkd2WmphSEVGTXU?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : \"Canal+\" \"appel d'offres\""
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-04"
+ },
+ {
   "id": "TED:725674-2026",
   "source": "TED",
   "ref": "725674-2026",
@@ -1228,6 +1361,27 @@
   "resume": "",
   "vu_le": "2026-10-13",
   "score": 3
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMilgFBVV95cUxNeFFKcnpBa3NhNVJsdFVKR2FWcG9FVHZ2ZEpfc2tYNDVhWEFmM2dzUHgyVmZvSWpOMkFsZTBQM005V01MeGV2UWhfUzdWRk0zMUExYW1IYXZQdWNxVnVnbmFrVTRKYXhRa1BrWGpsb1R4TWxKV1IzSlZMclV6aHk3UlY2MElGS0hTRkZKbWwzLU1KbnotREE?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeFFKcnpBa3NhNVJsdFVKR2FWcG9FVHZ2ZEpfc2tYNDVhWEFmM2dzUHgyVmZvSWpOMkFsZTBQM005V01MeGV2UWhfUzdWRk0zMUExYW1IYXZQdWNxVnVnbmFrVTRKYXhRa1BrWGpsb1R4TWxKV1IzSlZMclV6aHk3UlY2MElGS0hTRkZKbWwzLU1KbnotREE?oc=5",
+  "titre": "RTS North East and the Borders - Invitation to Tender for Technical Resources - Royal Television Society",
+  "acheteur": "Royal Television Society",
+  "pays": "",
+  "publie": "2026-10-13",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeFFKcnpBa3NhNVJsdFVKR2FWcG9FVHZ2ZEpfc2tYNDVhWEFmM2dzUHgyVmZvSWpOMkFsZTBQM005V01MeGV2UWhfUzdWRk0zMUExYW1IYXZQdWNxVnVnbmFrVTRKYXhRa1BrWGpsb1R4TWxKV1IzSlZMclV6aHk3UlY2MElGS0hTRkZKbWwzLU1KbnotREE?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : beIN \"invitation to tender\""
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-04"
  },
  {
   "id": "TED:703261-2026",
