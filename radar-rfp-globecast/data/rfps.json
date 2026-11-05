@@ -26,6 +26,27 @@
   "vu_le": "2026-11-04"
  },
  {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeGI5TXBWLTJXZjBiMzVxS3d1RWxSZUhtbWhsWE5kTHY1ZGpEYlA4cU1URndhT0xnVE04MmtHUjc1a19rUTRTWW0yaU1icVU3eXhEVVZsRzVRV1g3Nk5YVExsNGVKRHNzdkdKbXljMXh4YVVJdlFxbVBUWFlmWE9jXzFLS3EzLUNBN2lrRkI2WVdJMTNad0gwTlcwazVsN3ZyRGxMNGxGczNJUFBZZXpXN0M0SDRmcldJ?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeGI5TXBWLTJXZjBiMzVxS3d1RWxSZUhtbWhsWE5kTHY1ZGpEYlA4cU1URndhT0xnVE04MmtHUjc1a19rUTRTWW0yaU1icVU3eXhEVVZsRzVRV1g3Nk5YVExsNGVKRHNzdkdKbXljMXh4YVVJdlFxbVBUWFlmWE9jXzFLS3EzLUNBN2lrRkI2WVdJMTNad0gwTlcwazVsN3ZyRGxMNGxGczNJUFBZZXpXN0M0SDRmcldJ?oc=5",
+  "titre": "LFP offers Ligue 1 rights or exclusive Ligue 1+ distribution in new tender - Broadband TV News",
+  "acheteur": "Broadband TV News",
+  "pays": "",
+  "publie": "2026-11-04",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeGI5TXBWLTJXZjBiMzVxS3d1RWxSZUhtbWhsWE5kTHY1ZGpEYlA4cU1URndhT0xnVE04MmtHUjc1a19rUTRTWW0yaU1icVU3eXhEVVZsRzVRV1g3Nk5YVExsNGVKRHNzdkdKbXljMXh4YVVJdlFxbVBUWFlmWE9jXzFLS3EzLUNBN2lrRkI2WVdJMTNad0gwTlcwazVsN3ZyRGxMNGxGczNJUFBZZXpXN0M0SDRmcldJ?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : \"Canal+\" tender broadcast"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-05"
+ },
+ {
   "score": 3,
   "id": "TED:760749-2026",
   "source": "TED",
@@ -239,6 +260,27 @@
   "nature": "signal",
   "resume": "",
   "vu_le": "2026-11-04"
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMinAFBVV95cUxPR2FRMnNtS3RWeGdEUmhaWGlpVHBhT1RXRlBWeFJLVlpTT1dHeGFjNXJNVnRDNzNZRFF6SDY5NVRVRGg2WV85NDhOdnNuYzNFaVcyMnFfWjNndldmbDVtSi10YVQxMUt1Z3ZIRHlSTmhfVjZJdnZUWWVQNmNOamdsXzZxZVdZdmtxeVJCVGNtemdjMXpGUEFCNkstbzY?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPR2FRMnNtS3RWeGdEUmhaWGlpVHBhT1RXRlBWeFJLVlpTT1dHeGFjNXJNVnRDNzNZRFF6SDY5NVRVRGg2WV85NDhOdnNuYzNFaVcyMnFfWjNndldmbDVtSi10YVQxMUt1Z3ZIRHlSTmhfVjZJdnZUWWVQNmNOamdsXzZxZVdZdmtxeVJCVGNtemdjMXpGUEFCNkstbzY?oc=5",
+  "titre": "Inside NBC News’ Bid to Break Out From Election-Night Pack - Variety",
+  "acheteur": "Variety",
+  "pays": "",
+  "publie": "2026-11-02",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPR2FRMnNtS3RWeGdEUmhaWGlpVHBhT1RXRlBWeFJLVlpTT1dHeGFjNXJNVnRDNzNZRFF6SDY5NVRVRGg2WV85NDhOdnNuYzNFaVcyMnFfWjNndldmbDVtSi10YVQxMUt1Z3ZIRHlSTmhfVjZJdnZUWWVQNmNOamdsXzZxZVdZdmtxeVJCVGNtemdjMXpGUEFCNkstbzY?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : host broadcaster tender"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-05"
  },
  {
   "id": "TED:753034-2026",
@@ -794,8 +836,8 @@
   "id": "Presse:https://news.google.com/rss/articles/CBMi_AFBVV95cUxORlJ6TzZKdGxORFpBSWZ5S2F5ZmVsTnhLQmloeEdWQlh0SDhaRWlwWmVCbHZuUF8zRkxsaE82Y2IwN0FjUW1fNXNMbldVajg1d09OenNIN0ItcUlHeS1pNFJ6WE9iTGo3TGlCbnhJTXE0U3FFTHI3a095YmhEejI1bDFhVU1jakw0UlFTNk9KUUxOQkRGY09YaW5JTDU0NzdOeEhUUHdYWDg0MUo5dmVuRXVvejVkbDJZLWM4UkVDTnNpNWJDMXk3X25nMjBPcXNmaktzNjdOUHFKVFFiMGIyOS1LbTNsZkxPaXQ2TDl4ODlTN1lRUUdYb3RzQVc?oc=5",
   "source": "Presse",
   "ref": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxORlJ6TzZKdGxORFpBSWZ5S2F5ZmVsTnhLQmloeEdWQlh0SDhaRWlwWmVCbHZuUF8zRkxsaE82Y2IwN0FjUW1fNXNMbldVajg1d09OenNIN0ItcUlHeS1pNFJ6WE9iTGo3TGlCbnhJTXE0U3FFTHI3a095YmhEejI1bDFhVU1jakw0UlFTNk9KUUxOQkRGY09YaW5JTDU0NzdOeEhUUHdYWDg0MUo5dmVuRXVvejVkbDJZLWM4UkVDTnNpNWJDMXk3X25nMjBPcXNmaktzNjdOUHFKVFFiMGIyOS1LbTNsZkxPaXQ2TDl4ODlTN1lRUUdYb3RzQVc?oc=5",
-  "titre": "Droits TV - Maxime Saada annonce une possible candidature de Canal+ au prochain appel d'offres pour la Ligue 1 ! - MadeInFOOT",
-  "acheteur": "MadeInFOOT",
+  "titre": "Droits TV - Maxime Saada annonce une possible candidature de Canal+ au prochain appel d'offres pour la Ligue 1 ! - MadeInFoot",
+  "acheteur": "MadeInFoot",
   "pays": "",
   "publie": "2026-10-22",
   "date_limite": "",
@@ -1002,6 +1044,27 @@
   "nature": "signal",
   "resume": "",
   "vu_le": "2026-11-04"
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMimAFBVV95cUxPemRjMDJSNFpRQ1h2R0U5bnh3Vzg0SVVMUjBGc2FxeUFYeXRSOUlVT3ZCMHF6SEh0N0hWT1BkcXRPTXRNbnF2aG9GRFRjVkFTVlpKcUZvdzBWb1RybUZ1NUxLRWx1MThHdTh1M1pWREs3N2pjRHNObVByTTVIYnlYWWNRUGRvb3RLX3VOMDBUeXBJc000RW5lZg?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPemRjMDJSNFpRQ1h2R0U5bnh3Vzg0SVVMUjBGc2FxeUFYeXRSOUlVT3ZCMHF6SEh0N0hWT1BkcXRPTXRNbnF2aG9GRFRjVkFTVlpKcUZvdzBWb1RybUZ1NUxLRWx1MThHdTh1M1pWREs3N2pjRHNObVByTTVIYnlYWWNRUGRvb3RLX3VOMDBUeXBJc000RW5lZg?oc=5",
+  "titre": "Celtic v Rangers on Netflix? What does TV rights tender mean for the Premiership? - The Herald",
+  "acheteur": "The Herald",
+  "pays": "",
+  "publie": "2026-10-21",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPemRjMDJSNFpRQ1h2R0U5bnh3Vzg0SVVMUjBGc2FxeUFYeXRSOUlVT3ZCMHF6SEh0N0hWT1BkcXRPTXRNbnF2aG9GRFRjVkFTVlpKcUZvdzBWb1RybUZ1NUxLRWx1MThHdTh1M1pWREs3N2pjRHNObVByTTVIYnlYWWNRUGRvb3RLX3VOMDBUeXBJc000RW5lZg?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : beIN \"invitation to tender\""
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-05"
  },
  {
   "id": "TED:725674-2026",
