@@ -1,6 +1,83 @@
 [
  {
   "score": 3,
+  "id": "TED:777813-2026",
+  "source": "TED",
+  "ref": "777813-2026",
+  "titre": "Roumanie – Services de publicité – Acord-cadru Lot I - Servicii de publicitate în presa scrisă și online Lot II – Servicii de informare și publicitate în faza implementării proiectelor derulate de Municipiul Arad",
+  "acheteur": "MUNICIPIUL ARAD",
+  "pays": "ROU",
+  "publie": "2026-11-09",
+  "date_limite": "",
+  "lien": "https://ted.europa.eu/fr/notice/-/detail/777813-2026",
+  "type": "Attribution",
+  "cpv": [
+   "79341000",
+   "79341000",
+   "79341000",
+   "22462000",
+   "79342200",
+   "92211000",
+   "92221000"
+  ],
+  "pourquoi": [
+   "CPV 92221000",
+   "CPV 92211000"
+  ],
+  "comptes": [],
+  "nature": "rfp",
+  "resume": "",
+  "vu_le": "2026-11-09"
+ },
+ {
+  "score": 3,
+  "id": "TED:778660-2026",
+  "source": "TED",
+  "ref": "778660-2026",
+  "titre": "Lettonie – Retransmission de programmes de télévision – Televīzijas pakalpojumu sniegšana ieslodzījuma vietās",
+  "acheteur": "Ieslodzījuma vietu pārvalde",
+  "pays": "LVA",
+  "publie": "2026-11-09",
+  "date_limite": "2026-12-07",
+  "lien": "https://ted.europa.eu/fr/notice/-/detail/778660-2026",
+  "type": "Avis de marché",
+  "cpv": [
+   "64228100",
+   "32523000",
+   "64228100",
+   "32523000"
+  ],
+  "pourquoi": [
+   "CPV 64228100"
+  ],
+  "comptes": [],
+  "nature": "rfp",
+  "resume": "",
+  "vu_le": "2026-11-09"
+ },
+ {
+  "score": 1,
+  "id": "Presse:https://news.google.com/rss/articles/CBMiogFBVV95cUxPcFlqWVlRZDRGQzFIdDYwYm5jNi1Nc1lGSkh5QTRUUFV0Mi1NX1MxRGJsREJ2bGFLLTNkaG41WDkwMUo0TzFlOWdmQmljZ2pzV0VuYTZEWGpmTHFKeHd3ZFVxUjlEQmtIUWIyUktiYWx3M0EyTzVpMXdBakNKRG1MX3pnMnRBdjZ1Y0lnaU1CcWhQYkZyTVFyRG8yZ1FXbURhWFE?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcFlqWVlRZDRGQzFIdDYwYm5jNi1Nc1lGSkh5QTRUUFV0Mi1NX1MxRGJsREJ2bGFLLTNkaG41WDkwMUo0TzFlOWdmQmljZ2pzV0VuYTZEWGpmTHFKeHd3ZFVxUjlEQmtIUWIyUktiYWx3M0EyTzVpMXdBakNKRG1MX3pnMnRBdjZ1Y0lnaU1CcWhQYkZyTVFyRG8yZ1FXbURhWFE?oc=5",
+  "titre": "Love Me Tender heads Supreme market after Naas win - Dunmow Broadcast",
+  "acheteur": "Dunmow Broadcast",
+  "pays": "",
+  "publie": "2026-11-08",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcFlqWVlRZDRGQzFIdDYwYm5jNi1Nc1lGSkh5QTRUUFV0Mi1NX1MxRGJsREJ2bGFLLTNkaG41WDkwMUo0TzFlOWdmQmljZ2pzV0VuYTZEWGpmTHFKeHd3ZFVxUjlEQmtIUWIyUktiYWx3M0EyTzVpMXdBakNKRG1MX3pnMnRBdjZ1Y0lnaU1CcWhQYkZyTVFyRG8yZ1FXbURhWFE?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "broadcast"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-09"
+ },
+ {
+  "score": 3,
   "id": "TED:772235-2026",
   "source": "TED",
   "ref": "772235-2026",
@@ -1436,6 +1513,27 @@
   "resume": "",
   "vu_le": "2026-10-19",
   "score": 3
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMitAFBVV95cUxQaFZ4N0dxOEZwV0phZmk2YW5mOXJRbm5zb1RsLW4yN1cxRE9YWlZLbERQZGpNZ29oUkNuM3lRdlJNek5EWHhTZGFnRkdkRm5TeVp1TXdmYlFYZ1VPejNic2JiTjUxU2VsV25WdWl6UlR4OXFXYmJTTE5BSVlpY0Y4bEFOdHE2dFFRUFhVNWkxZnpzRmUzcWJyN3dIelVNS256Nmt0Z2pZa1NyMmV5U1hGNE9iMF8?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaFZ4N0dxOEZwV0phZmk2YW5mOXJRbm5zb1RsLW4yN1cxRE9YWlZLbERQZGpNZ29oUkNuM3lRdlJNek5EWHhTZGFnRkdkRm5TeVp1TXdmYlFYZ1VPejNic2JiTjUxU2VsV25WdWl6UlR4OXFXYmJTTE5BSVlpY0Y4bEFOdHE2dFFRUFhVNWkxZnpzRmUzcWJyN3dIelVNS256Nmt0Z2pZa1NyMmV5U1hGNE9iMF8?oc=5",
+  "titre": "Switzerland advances bid to host 2038 Winter Olympics - SWI swissinfo.ch",
+  "acheteur": "SWI swissinfo.ch",
+  "pays": "",
+  "publie": "2026-10-17",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaFZ4N0dxOEZwV0phZmk2YW5mOXJRbm5zb1RsLW4yN1cxRE9YWlZLbERQZGpNZ29oUkNuM3lRdlJNek5EWHhTZGFnRkdkRm5TeVp1TXdmYlFYZ1VPejNic2JiTjUxU2VsV25WdWl6UlR4OXFXYmJTTE5BSVlpY0Y4bEFOdHE2dFFRUFhVNWkxZnpzRmUzcWJyN3dIelVNS256Nmt0Z2pZa1NyMmV5U1hGNE9iMF8?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : host broadcaster tender"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-09"
  },
  {
   "id": "TED:718542-2026",
