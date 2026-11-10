@@ -1,6 +1,78 @@
 [
  {
   "score": 3,
+  "id": "TED:779450-2026",
+  "source": "TED",
+  "ref": "779450-2026",
+  "titre": "France – Logiciels et systèmes informatiques divers – Plateforme encodage vidéo",
+  "acheteur": "RADIO FRANCE",
+  "pays": "FRA",
+  "publie": "2026-11-10",
+  "date_limite": "",
+  "lien": "https://ted.europa.eu/fr/notice/-/detail/779450-2026",
+  "type": "Attribution",
+  "cpv": [
+   "48900000",
+   "48900000"
+  ],
+  "pourquoi": [
+   "encodage vidéo"
+  ],
+  "comptes": [],
+  "nature": "rfp",
+  "resume": "",
+  "vu_le": "2026-11-10"
+ },
+ {
+  "score": 3,
+  "id": "TED:780229-2026",
+  "source": "TED",
+  "ref": "780229-2026",
+  "titre": "Estonie – Services de production télévisuelle – Sotsiaalset innovatsiooni tutvustava telesarja loomine ja tootmine SA Kodanikuühiskonna Sihtkapitalile",
+  "acheteur": "Riigi Tugiteenuste Keskus",
+  "pays": "EST",
+  "publie": "2026-11-10",
+  "date_limite": "2026-11-23",
+  "lien": "https://ted.europa.eu/fr/notice/-/detail/780229-2026",
+  "type": "Avis de marché",
+  "cpv": [
+   "92221000",
+   "92221000"
+  ],
+  "pourquoi": [
+   "CPV 92221000"
+  ],
+  "comptes": [],
+  "nature": "rfp",
+  "resume": "",
+  "vu_le": "2026-11-10"
+ },
+ {
+  "score": 3,
+  "id": "TED:780638-2026",
+  "source": "TED",
+  "ref": "780638-2026",
+  "titre": "Allemagne – Services de télévision en circuit fermé – Erweiterung und energetische Sanierung der Ludwig-Reinhard-Schule mit Neubau einer 2-fach Schulsporthalle in 87600 Kaufbeuren",
+  "acheteur": "Stadt Kaufbeuren",
+  "pays": "DEU",
+  "publie": "2026-11-10",
+  "date_limite": "",
+  "lien": "https://ted.europa.eu/fr/notice/-/detail/780638-2026",
+  "type": "Attribution",
+  "cpv": [
+   "92222000",
+   "92222000"
+  ],
+  "pourquoi": [
+   "CPV 92222000"
+  ],
+  "comptes": [],
+  "nature": "rfp",
+  "resume": "",
+  "vu_le": "2026-11-10"
+ },
+ {
+  "score": 3,
   "id": "TED:777813-2026",
   "source": "TED",
   "ref": "777813-2026",
@@ -1740,6 +1812,27 @@
   "resume": "",
   "vu_le": "2026-10-14",
   "score": 4
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMiugFBVV95cUxPTEhXYVFZc1I5Ynd5ZlJPZHFPQlVsaGpBNWlBVzZaOVFqQW94MmxyREFYMk1pQTJEMnlKR0xjOXhDcmRXX2gtanlvUE1XdU5YYmh5dE9CWkZ2bUt2eGtOTUg3MmVTMzZBQ0htLTlPQXJWZHRDZVRWQkk1OXFrZi1hZGRLSnB4cHNlcWJpbHVRaWpBaUdhWWQ3UmZBaWtRZDAwd2Q2MTNTU3FWWGRWR3g1RHZsUWZubVl3VWc?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTEhXYVFZc1I5Ynd5ZlJPZHFPQlVsaGpBNWlBVzZaOVFqQW94MmxyREFYMk1pQTJEMnlKR0xjOXhDcmRXX2gtanlvUE1XdU5YYmh5dE9CWkZ2bUt2eGtOTUg3MmVTMzZBQ0htLTlPQXJWZHRDZVRWQkk1OXFrZi1hZGRLSnB4cHNlcWJpbHVRaWpBaUdhWWQ3UmZBaWtRZDAwd2Q2MTNTU3FWWGRWR3g1RHZsUWZubVl3VWc?oc=5",
+  "titre": "Spain confirms bid to host Rugby World Cup: Stunning stadiums confirmed - Ruck.co.uk",
+  "acheteur": "Ruck.co.uk",
+  "pays": "",
+  "publie": "2026-10-14",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTEhXYVFZc1I5Ynd5ZlJPZHFPQlVsaGpBNWlBVzZaOVFqQW94MmxyREFYMk1pQTJEMnlKR0xjOXhDcmRXX2gtanlvUE1XdU5YYmh5dE9CWkZ2bUt2eGtOTUg3MmVTMzZBQ0htLTlPQXJWZHRDZVRWQkk1OXFrZi1hZGRLSnB4cHNlcWJpbHVRaWpBaUdhWWQ3UmZBaWtRZDAwd2Q2MTNTU3FWWGRWR3g1RHZsUWZubVl3VWc?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : host broadcaster tender"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-10"
  },
  {
   "id": "TED:705519-2026",
