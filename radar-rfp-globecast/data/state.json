@@ -3,51 +3,51 @@
   "TED": {
    "description": "Europe : Journal officiel de l'UE",
    "etat": "ok",
-   "dernier_essai": "2026-11-10T06:06:05Z",
-   "dernier_succes": "2026-11-10T06:06:05Z",
+   "dernier_essai": "2026-11-11T06:13:05Z",
+   "dernier_succes": "2026-11-11T06:13:05Z",
    "trouves_dernier_passage": 5,
    "message": ""
   },
   "BOAMP": {
    "description": "France : marchés publics",
    "etat": "ok",
-   "dernier_essai": "2026-11-10T06:06:05Z",
-   "dernier_succes": "2026-11-10T06:06:05Z",
+   "dernier_essai": "2026-11-11T06:13:05Z",
+   "dernier_succes": "2026-11-11T06:13:05Z",
    "trouves_dernier_passage": 0,
    "message": ""
   },
   "Find a Tender (UK)": {
    "description": "Royaume-Uni",
    "etat": "ok",
-   "dernier_essai": "2026-11-10T06:06:05Z",
+   "dernier_essai": "2026-11-11T06:13:05Z",
    "message": "",
-   "dernier_succes": "2026-11-10T06:06:05Z",
+   "dernier_succes": "2026-11-11T06:13:05Z",
    "trouves_dernier_passage": 0
   },
   "SAM.gov (US)": {
    "description": "États-Unis : marchés fédéraux",
    "etat": "désactivée",
    "message": "Désactivé : ajoutez une clé SAM_API_KEY pour les États-Unis (voir le guide).",
-   "dernier_essai": "2026-11-10T06:06:05Z"
+   "dernier_essai": "2026-11-11T06:13:05Z"
   },
   "Presse": {
    "description": "Google Actualités : acteurs privés",
    "etat": "ok",
-   "dernier_essai": "2026-11-10T06:06:05Z",
-   "dernier_succes": "2026-11-10T06:06:05Z",
-   "trouves_dernier_passage": 25,
+   "dernier_essai": "2026-11-11T06:13:05Z",
+   "dernier_succes": "2026-11-11T06:13:05Z",
+   "trouves_dernier_passage": 26,
    "message": ""
   },
   "Sites surveillés": {
    "description": "Dematis, plateformes d'achat, sites de prospects",
    "etat": "désactivée",
-   "dernier_essai": "2026-11-10T06:06:05Z",
+   "dernier_essai": "2026-11-11T06:13:05Z",
    "dernier_succes": "2026-11-03T13:36:11Z",
    "trouves_dernier_passage": 0,
    "message": "Aucun site dans pages_a_surveiller (config.yaml)."
   }
  },
- "dernier_passage": "2026-11-10T06:06:05Z",
+ "dernier_passage": "2026-11-11T06:13:05Z",
  "pages_vues": {
   "https://tv5.e-marchespublics.com/": [
    "https://tv5.e-marchespublics.com/tv5.e-marchespublics.com",
