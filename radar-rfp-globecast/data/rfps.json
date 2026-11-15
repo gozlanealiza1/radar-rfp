@@ -894,6 +894,27 @@
   "vu_le": "2026-10-29"
  },
  {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMilwFBVV95cUxNM2Y0ekxCWUMzY05zZFp3YmR0VFFoNGpUYmV6ZDU4VHVMMUpuWTFtYlRsb28zcTQ0QmMxZU10QjhrX2FKdmMtS0RId1ZtNFNNcFRTbk03cUp3S3ZWS1BDc3I5MDVZbTg1MGRxRUFJNGxaSFBiQndLMnBZV3V1WVQ5bEhzZGVuZzNhOUx3MHBVYl8tR1Jwamln?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNM2Y0ekxCWUMzY05zZFp3YmR0VFFoNGpUYmV6ZDU4VHVMMUpuWTFtYlRsb28zcTQ0QmMxZU10QjhrX2FKdmMtS0RId1ZtNFNNcFRTbk03cUp3S3ZWS1BDc3I5MDVZbTg1MGRxRUFJNGxaSFBiQndLMnBZV3V1WVQ5bEhzZGVuZzNhOUx3MHBVYl8tR1Jwamln?oc=5",
+  "titre": "Invitation to tender for Saturday Kitchen, Saturday Kitchen Best Bites and Celebration Kitchen - BBC",
+  "acheteur": "BBC",
+  "pays": "",
+  "publie": "2026-10-29",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNM2Y0ekxCWUMzY05zZFp3YmR0VFFoNGpUYmV6ZDU4VHVMMUpuWTFtYlRsb28zcTQ0QmMxZU10QjhrX2FKdmMtS0RId1ZtNFNNcFRTbk03cUp3S3ZWS1BDc3I5MDVZbTg1MGRxRUFJNGxaSFBiQndLMnBZV3V1WVQ5bEhzZGVuZzNhOUx3MHBVYl8tR1Jwamln?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : beIN \"invitation to tender\""
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-15"
+ },
+ {
   "id": "TED:747397-2026",
   "source": "TED",
   "ref": "747397-2026",
