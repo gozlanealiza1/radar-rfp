@@ -1,5 +1,60 @@
 [
  {
+  "score": 3,
+  "id": "TED:796197-2026",
+  "source": "TED",
+  "ref": "796197-2026",
+  "titre": "Autriche – Compteurs d'énergie – Rahmenvereinbarung Smart Meter System End-of-Life Replacement (smart meters, data concentrators, head-end system) - SMS-EoLR",
+  "acheteur": "Netz Burgenland GmbH, im Vergabeverfahren vertreten durch die BE Service GmbH",
+  "pays": "AUT",
+  "publie": "2026-11-16",
+  "date_limite": "",
+  "lien": "https://ted.europa.eu/fr/notice/-/detail/796197-2026",
+  "type": "Avis de marché",
+  "cpv": [
+   "38551000",
+   "32260000",
+   "48516000",
+   "48219700",
+   "38551000",
+   "32260000",
+   "48516000",
+   "48219700"
+  ],
+  "pourquoi": [
+   "head-end"
+  ],
+  "comptes": [],
+  "nature": "rfp",
+  "resume": "",
+  "vu_le": "2026-11-16"
+ },
+ {
+  "score": 3,
+  "id": "TED:796207-2026",
+  "source": "TED",
+  "ref": "796207-2026",
+  "titre": "Espagne – Retransmission de programmes de télévision et de radio – Acuerdo marco:Transmisión de señales de tv y radio mediante estaciones terrenas. Servicios ocasionales ETT's 12h HD/UHD",
+  "acheteur": "Compras de la Corporación de Radio y Televisión Española S.A.",
+  "pays": "ESP",
+  "publie": "2026-11-16",
+  "date_limite": "2026-12-17",
+  "lien": "https://ted.europa.eu/fr/notice/-/detail/796207-2026",
+  "type": "Avis de marché",
+  "cpv": [
+   "64228000",
+   "64228000",
+   "64228000"
+  ],
+  "pourquoi": [
+   "CPV 64228000"
+  ],
+  "comptes": [],
+  "nature": "rfp",
+  "resume": "",
+  "vu_le": "2026-11-16"
+ },
+ {
   "score": 0,
   "id": "Presse:https://news.google.com/rss/articles/CBMingFBVV95cUxOUUlIRlVLWVdaWXZhQS1uaGQxNURIYzc5bHB1M1BxMnd2aUxfcFl1dnBvbHpkdlE2cElBbXZmWGFUWjhPYXg5dTI3QmhHRnJ3RmtDRjdWR29xR1hHM3gxWjJaMEJfOWxILWhRc3RzU09iLUQ5eGt4ZEozWi0wQjBHcDlxRy1lR1ZoVlNoNXk3VkV1YTlzOXEyaDg2dnc4QQ?oc=5",
   "source": "Presse",
@@ -1714,6 +1769,27 @@
   "nature": "signal",
   "resume": "",
   "vu_le": "2026-11-13"
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMDVFYmZiQ0pwR3FlME5NNmNMUG12Uy1laEM5c1FZdUctTm5laktUTC1laFJONGlkNS01Qk5yM0RpQWkxdTVRS1ZXYXNTT0Fpb2VjdDFZRF9ENHhYVDdURFhIQjhoQnc0WnpNQy1NZ2FyNTFCZ1B3X0h6VFM3Nkl2ZFZVLTFoRUpvVERXaXQ3Z2I3b3FsVmJ0UTBXSzFsOFdqTWlDeFFXNU00ZEFsUXRxSVhOTVNhY1gxWUs3bzBvZ3BLUUI1YkZ6TGJlcWh3UTdQWHc?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMDVFYmZiQ0pwR3FlME5NNmNMUG12Uy1laEM5c1FZdUctTm5laktUTC1laFJONGlkNS01Qk5yM0RpQWkxdTVRS1ZXYXNTT0Fpb2VjdDFZRF9ENHhYVDdURFhIQjhoQnc0WnpNQy1NZ2FyNTFCZ1B3X0h6VFM3Nkl2ZFZVLTFoRUpvVERXaXQ3Z2I3b3FsVmJ0UTBXSzFsOFdqTWlDeFFXNU00ZEFsUXRxSVhOTVNhY1gxWUs3bzBvZ3BLUUI1YkZ6TGJlcWh3UTdQWHc?oc=5",
+  "titre": "SPFL open door for more live Scottish Premiership matches as TV rights put out to tender - The Scotsman",
+  "acheteur": "The Scotsman",
+  "pays": "",
+  "publie": "2026-10-20",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMDVFYmZiQ0pwR3FlME5NNmNMUG12Uy1laEM5c1FZdUctTm5laktUTC1laFJONGlkNS01Qk5yM0RpQWkxdTVRS1ZXYXNTT0Fpb2VjdDFZRF9ENHhYVDdURFhIQjhoQnc0WnpNQy1NZ2FyNTFCZ1B3X0h6VFM3Nkl2ZFZVLTFoRUpvVERXaXQ3Z2I3b3FsVmJ0UTBXSzFsOFdqTWlDeFFXNU00ZEFsUXRxSVhOTVNhY1gxWUs3bzBvZ3BLUUI1YkZ6TGJlcWh3UTdQWHc?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : host broadcaster tender"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-16"
  },
  {
   "id": "TED:719773-2026",
