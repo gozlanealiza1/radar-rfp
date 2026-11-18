@@ -1,6 +1,82 @@
 [
  {
   "score": 3,
+  "id": "TED:801321-2026",
+  "source": "TED",
+  "ref": "801321-2026",
+  "titre": "Lettonie – Retransmission de programmes de télévision – Televīzijas pakalpojumu sniegšana ieslodzījuma vietās",
+  "acheteur": "Ieslodzījuma vietu pārvalde",
+  "pays": "LVA",
+  "publie": "2026-11-18",
+  "date_limite": "2026-12-07",
+  "lien": "https://ted.europa.eu/fr/notice/-/detail/801321-2026",
+  "type": "Avis de marché",
+  "cpv": [
+   "64228100",
+   "32523000",
+   "64228100",
+   "32523000"
+  ],
+  "pourquoi": [
+   "CPV 64228100"
+  ],
+  "comptes": [],
+  "nature": "rfp",
+  "resume": "",
+  "vu_le": "2026-11-18"
+ },
+ {
+  "score": 3,
+  "id": "TED:801906-2026",
+  "source": "TED",
+  "ref": "801906-2026",
+  "titre": "Allemagne – Services d'installation de matériel électrique – Wasserwerk Sandelermöns - Neubau Filterhalle | Baustelleneinrichtung /-infrastruktur",
+  "acheteur": "Oldenburgisch-Ostfriesischer Wasserverband",
+  "pays": "DEU",
+  "publie": "2026-11-18",
+  "date_limite": "2026-12-17",
+  "lien": "https://ted.europa.eu/fr/notice/-/detail/801906-2026",
+  "type": "Avis de marché",
+  "cpv": [
+   "51110000",
+   "92222000",
+   "51110000",
+   "92222000"
+  ],
+  "pourquoi": [
+   "CPV 92222000"
+  ],
+  "comptes": [],
+  "nature": "rfp",
+  "resume": "",
+  "vu_le": "2026-11-18"
+ },
+ {
+  "score": 3,
+  "id": "TED:803508-2026",
+  "source": "TED",
+  "ref": "803508-2026",
+  "titre": "Italie – Services de production télévisuelle – CONSULTAZIONE DI MERCATO Servizio di riprese in movimento - per la copertura televisiva degli eventi della Lega del ciclismo professionistico 2027/2028 - presso varie località Italia - dal 01/01/2027 al 31/12/2027 (con opzione di rinnovo al 31/12/2028).",
+  "acheteur": "RAI - Radiotelevisione Italiana S.p.A. - A/SRT/MNT",
+  "pays": "ITA",
+  "publie": "2026-11-18",
+  "date_limite": "",
+  "lien": "https://ted.europa.eu/fr/notice/-/detail/803508-2026",
+  "type": "Préinformation",
+  "cpv": [
+   "92221000",
+   "92221000"
+  ],
+  "pourquoi": [
+   "CPV 92221000"
+  ],
+  "comptes": [],
+  "nature": "rfp",
+  "resume": "",
+  "vu_le": "2026-11-18"
+ },
+ {
+  "score": 3,
   "id": "TED:796197-2026",
   "source": "TED",
   "ref": "796197-2026",
@@ -53,6 +129,27 @@
   "nature": "rfp",
   "resume": "",
   "vu_le": "2026-11-16"
+ },
+ {
+  "score": 1,
+  "id": "Presse:https://news.google.com/rss/articles/CBMilgFBVV95cUxOWC1NdVNreDFlcGlSNXFmbklTTFUzZ3NQNlFLWnp5MGRZMi1XQlpyUGNpN3BtTlFYM3JFaS1vaVh4a2tHNFZBUmYxU01WZkJINE5kZEw2cXIyeHE1SUdpTmxnUUdpMTA0eDlSLXlGZ3VHMWVEUlduN0E4TjlDRW5TcFJiMEZlR2RJb0I3M2xERDVCS0lyRVE?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWC1NdVNreDFlcGlSNXFmbklTTFUzZ3NQNlFLWnp5MGRZMi1XQlpyUGNpN3BtTlFYM3JFaS1vaVh4a2tHNFZBUmYxU01WZkJINE5kZEw2cXIyeHE1SUdpTmxnUUdpMTA0eDlSLXlGZ3VHMWVEUlduN0E4TjlDRW5TcFJiMEZlR2RJb0I3M2xERDVCS0lyRVE?oc=5",
+  "titre": "Quebecor goes public with takeover bid for TELUS Corporation - Broadcast Dialogue",
+  "acheteur": "Broadcast Dialogue",
+  "pays": "",
+  "publie": "2026-11-16",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWC1NdVNreDFlcGlSNXFmbklTTFUzZ3NQNlFLWnp5MGRZMi1XQlpyUGNpN3BtTlFYM3JFaS1vaVh4a2tHNFZBUmYxU01WZkJINE5kZEw2cXIyeHE1SUdpTmxnUUdpMTA0eDlSLXlGZ3VHMWVEUlduN0E4TjlDRW5TcFJiMEZlR2RJb0I3M2xERDVCS0lyRVE?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "broadcast"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-18"
  },
  {
   "score": 0,
@@ -158,6 +255,27 @@
   "nature": "signal",
   "resume": "",
   "vu_le": "2026-11-13"
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMihwFBVV95cUxOY1NaWE8yNG9jN0NIdEppM3BoU0pIc1FwYjRkdkwxTG1sZlhwMkV2ZHU1clQ5QWxhRFZFUklsOFZIbjVNT0FlN3p2TFB5R0ZURGRrOXh0bDNWNVpURDdIRTVVMmxxeG04RUJJbV9QOTEzTlQ0djBkNF9UVE5PVnd4VUhJY3dhRG8?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOY1NaWE8yNG9jN0NIdEppM3BoU0pIc1FwYjRkdkwxTG1sZlhwMkV2ZHU1clQ5QWxhRFZFUklsOFZIbjVNT0FlN3p2TFB5R0ZURGRrOXh0bDNWNVpURDdIRTVVMmxxeG04RUJJbV9QOTEzTlQ0djBkNF9UVE5PVnd4VUhJY3dhRG8?oc=5",
+  "titre": "Atlanta included in bid to host 2031 Women’s World Cup - FOX 5 Atlanta",
+  "acheteur": "FOX 5 Atlanta",
+  "pays": "",
+  "publie": "2026-11-12",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOY1NaWE8yNG9jN0NIdEppM3BoU0pIc1FwYjRkdkwxTG1sZlhwMkV2ZHU1clQ5QWxhRFZFUklsOFZIbjVNT0FlN3p2TFB5R0ZURGRrOXh0bDNWNVpURDdIRTVVMmxxeG04RUJJbV9QOTEzTlQ0djBkNF9UVE5PVnd4VUhJY3dhRG8?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : host broadcaster tender"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-18"
  },
  {
   "score": 3,
@@ -402,6 +520,28 @@
   "nature": "signal",
   "resume": "",
   "vu_le": "2026-11-07"
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMiT0FVX3lxTE9RUDZMLWpsc213UjhETmdteDQzWXM2VVNoQTNlZDJoOWtvUWhNX2VHbFN0R0U3Y3dIVlZDMVlmbm5MWmMzdEtpaFVnajZhQWc?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9RUDZMLWpsc213UjhETmdteDQzWXM2VVNoQTNlZDJoOWtvUWhNX2VHbFN0R0U3Y3dIVlZDMVlmbm5MWmMzdEtpaFVnajZhQWc?oc=5",
+  "titre": "LFP opens Ligue 1 rights tender for 2027-2032, putting Ligue 1+ future in doubt - 懂球帝",
+  "acheteur": "懂球帝",
+  "pays": "",
+  "publie": "2026-11-06",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9RUDZMLWpsc213UjhETmdteDQzWXM2VVNoQTNlZDJoOWtvUWhNX2VHbFN0R0U3Y3dIVlZDMVlmbm5MWmMzdEtpaFVnajZhQWc?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : beIN tender broadcast",
+   "recherche : \"Canal+\" tender broadcast"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-18"
  },
  {
   "score": 0,
@@ -1680,6 +1820,28 @@
   "nature": "signal",
   "resume": "",
   "vu_le": "2026-11-05"
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMiTkFVX3lxTE8yVVF4alZ2MXUyNG55blQzRGNIZGpBeVp6X3Nrdk9GV2JJbV9jeU1DYm9SUTUxMmszbHBvTjRtRmRnWldlZmhpMWZZZ0s1dw?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8yVVF4alZ2MXUyNG55blQzRGNIZGpBeVp6X3Nrdk9GV2JJbV9jeU1DYm9SUTUxMmszbHBvTjRtRmRnWldlZmhpMWZZZ0s1dw?oc=5",
+  "titre": "LFP launches Ligue 1 TV rights tender for 2027-2032, opening door to channel change - 懂球帝",
+  "acheteur": "懂球帝",
+  "pays": "",
+  "publie": "2026-10-21",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8yVVF4alZ2MXUyNG55blQzRGNIZGpBeVp6X3Nrdk9GV2JJbV9jeU1DYm9SUTUxMmszbHBvTjRtRmRnWldlZmhpMWZZZ0s1dw?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : beIN tender broadcast",
+   "recherche : \"Canal+\" tender broadcast"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-18"
  },
  {
   "id": "TED:725674-2026",
