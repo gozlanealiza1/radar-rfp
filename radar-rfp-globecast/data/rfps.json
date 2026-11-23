@@ -1,5 +1,60 @@
 [
  {
+  "score": 3,
+  "id": "TED:812543-2026",
+  "source": "TED",
+  "ref": "812543-2026",
+  "titre": "Espagne – Retransmission de programmes de télévision et de radio – Transporte por satélite de la señal de RTVE para los clientes de RTVE en África",
+  "acheteur": "Compras de la Corporación de Radio y Televisión Española S.A.",
+  "pays": "ESP",
+  "publie": "2026-11-23",
+  "date_limite": "",
+  "lien": "https://ted.europa.eu/fr/notice/-/detail/812543-2026",
+  "type": "Attribution",
+  "cpv": [
+   "64228000",
+   "64228000"
+  ],
+  "pourquoi": [
+   "CPV 64228000"
+  ],
+  "comptes": [],
+  "nature": "rfp",
+  "resume": "",
+  "vu_le": "2026-11-23"
+ },
+ {
+  "score": 3,
+  "id": "TED:813301-2026",
+  "source": "TED",
+  "ref": "813301-2026",
+  "titre": "Tchéquie – Services de publicité – Dynamický nákupní systém – Nákup mediálního prostoru",
+  "acheteur": "Zdravotní pojišťovna ministerstva vnitra České republiky",
+  "pays": "CZE",
+  "publie": "2026-11-23",
+  "date_limite": "",
+  "lien": "https://ted.europa.eu/fr/notice/-/detail/813301-2026",
+  "type": "Avis de marché",
+  "cpv": [
+   "79341000",
+   "79341400",
+   "79341000",
+   "79341000",
+   "79341000",
+   "79341000",
+   "79341000",
+   "79341000"
+  ],
+  "pourquoi": [
+   "CPV 92220000",
+   "CPV 92210000"
+  ],
+  "comptes": [],
+  "nature": "rfp",
+  "resume": "",
+  "vu_le": "2026-11-23"
+ },
+ {
   "score": 0,
   "id": "Presse:https://news.google.com/rss/articles/CBMirAFBVV95cUxQeVMwQllrYlRvSUZzbVJjalo0Y3E1bV9sNFBrb1p0akJ1NENFZFpxcmtpbC1ZdlNPeWdPNllKVUZ0dUswa2x5ZzVwOHhjQ2xuSDA3NVc4cUxWaWlsYWdiWGFpU21idHdHRFJjdFVId2pYLS1tRFI1MGwweVlzMGU0VndKWDdGdkcyMXdJWFZxcERaUGlEVHdSNVBSWE1fMndrdHU1b1NNc2VESmRU?oc=5",
   "source": "Presse",
@@ -19,6 +74,27 @@
   "nature": "signal",
   "resume": "",
   "vu_le": "2026-11-21"
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMihwFBVV95cUxNN19vaW55U2pmcWx1YnJ0cHl1NVVOVmdHNllEeVNLWThoeThGV25IMzNtcE5qcWRlTDJGbmVVaDZvS1pmYmZtRVFSNzZ5MUcwdnQ1WW5TQWFnTmdQOVB6MlVOUVpxQWMyWVpRU0JVZ01adDdwcGlhbFNMMlRIVFBIV2NzSUprODg?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNN19vaW55U2pmcWx1YnJ0cHl1NVVOVmdHNllEeVNLWThoeThGV25IMzNtcE5qcWRlTDJGbmVVaDZvS1pmYmZtRVFSNzZ5MUcwdnQ1WW5TQWFnTmdQOVB6MlVOUVpxQWMyWVpRU0JVZ01adDdwcGlhbFNMMlRIVFBIV2NzSUprODg?oc=5",
+  "titre": "Fox teams with Univision for World Cup bid; NBC bows out - Awful Announcing",
+  "acheteur": "Awful Announcing",
+  "pays": "",
+  "publie": "2026-11-20",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNN19vaW55U2pmcWx1YnJ0cHl1NVVOVmdHNllEeVNLWThoeThGV25IMzNtcE5qcWRlTDJGbmVVaDZvS1pmYmZtRVFSNzZ5MUcwdnQ1WW5TQWFnTmdQOVB6MlVOUVpxQWMyWVpRU0JVZ01adDdwcGlhbFNMMlRIVFBIV2NzSUprODg?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : host broadcaster tender"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-23"
  },
  {
   "score": 0,
@@ -671,6 +747,27 @@
  },
  {
   "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMif0FVX3lxTE93YkVwc0JLUjlHTWNYbUxZT0VteVMzSFV1Ulk4TVA1TUViRjRWVUw5VzRNdmhFc202TlQ4Y0RFQ3ZLQVhPOWp2dXdXRFhIbTE5SUZuQVBfSHk2Z0RTTGo4UWRYRHROUFJ0QjNnTldUeExpczBZdkNuOEFDc2lJdHc?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMif0FVX3lxTE93YkVwc0JLUjlHTWNYbUxZT0VteVMzSFV1Ulk4TVA1TUViRjRWVUw5VzRNdmhFc202TlQ4Y0RFQ3ZLQVhPOWp2dXdXRFhIbTE5SUZuQVBfSHk2Z0RTTGo4UWRYRHROUFJ0QjNnTldUeExpczBZdkNuOEFDc2lJdHc?oc=5",
+  "titre": "A blue wave and a quiet campaign tanked Tafoya’s Senate bid - Star Tribune",
+  "acheteur": "Star Tribune",
+  "pays": "",
+  "publie": "2026-11-06",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTE93YkVwc0JLUjlHTWNYbUxZT0VteVMzSFV1Ulk4TVA1TUViRjRWVUw5VzRNdmhFc202TlQ4Y0RFQ3ZLQVhPOWp2dXdXRFhIbTE5SUZuQVBfSHk2Z0RTTGo4UWRYRHROUFJ0QjNnTldUeExpczBZdkNuOEFDc2lJdHc?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : host broadcaster tender"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-23"
+ },
+ {
+  "score": 0,
   "id": "Presse:https://news.google.com/rss/articles/CBMirAFBVV95cUxQcjQ4LUVsazFqTTBIVXdENG9Md1ZYNGZ6Uy13ZkNtbkFPRUtab1BmOVRBVHhsSU5zTDBHN2l4Vms5Mm52RDhJSnBBWDEzdjBicG00cTRZNUxzUmtUWUlaSU5KU1l6MFFlLXdYckRxWV9WNzJIaE8zYU15STRueDVJOUtvbnR3ZlZMV1FpVzJfTktBOGs3Z3dCYXdEcEJGSWJCQXM0NUNWb1UtTjQ3?oc=5",
   "source": "Presse",
   "ref": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcjQ4LUVsazFqTTBIVXdENG9Md1ZYNGZ6Uy13ZkNtbkFPRUtab1BmOVRBVHhsSU5zTDBHN2l4Vms5Mm52RDhJSnBBWDEzdjBicG00cTRZNUxzUmtUWUlaSU5KU1l6MFFlLXdYckRxWV9WNzJIaE8zYU15STRueDVJOUtvbnR3ZlZMV1FpVzJfTktBOGs3Z3dCYXdEcEJGSWJCQXM0NUNWb1UtTjQ3?oc=5",
@@ -937,6 +1034,27 @@
   "nature": "signal",
   "resume": "",
   "vu_le": "2026-11-07"
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMi0AFBVV95cUxOY2hkVjlfOGF3OTlwT0JnUTVuSXd4UEpPaEV6bkdkRVhSa21neFZRa3NocTdhanlVYWFwSnhZSTlsbVctUnRiVFdKZkdXNm1Gd2NNNk41VmRUTFlfdTZVTUVMcVpnQnRSVW1tMFdJMWtBT2VrU3RJVWRDdmlxNHFUbHFoWUtLRDBoVVdma1lHMVFrcHQ0am83VDg3Y3pzZ0NEcElGVzRueTJhTFdxczJVd1p3bVJfcTlQWDh3NmVveTVWY1BJOWw5U0I4Qkx1eGpz?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOY2hkVjlfOGF3OTlwT0JnUTVuSXd4UEpPaEV6bkdkRVhSa21neFZRa3NocTdhanlVYWFwSnhZSTlsbVctUnRiVFdKZkdXNm1Gd2NNNk41VmRUTFlfdTZVTUVMcVpnQnRSVW1tMFdJMWtBT2VrU3RJVWRDdmlxNHFUbHFoWUtLRDBoVVdma1lHMVFrcHQ0am83VDg3Y3pzZ0NEcElGVzRueTJhTFdxczJVd1p3bVJfcTlQWDh3NmVveTVWY1BJOWw5U0I4Qkx1eGpz?oc=5",
+  "titre": "Droits TV de la Ligue 1 : la LFP change les règles de son appel d’offres pour séduire les diffuseurs - Sport Buzz Business",
+  "acheteur": "Sport Buzz Business",
+  "pays": "",
+  "publie": "2026-11-03",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOY2hkVjlfOGF3OTlwT0JnUTVuSXd4UEpPaEV6bkdkRVhSa21neFZRa3NocTdhanlVYWFwSnhZSTlsbVctUnRiVFdKZkdXNm1Gd2NNNk41VmRUTFlfdTZVTUVMcVpnQnRSVW1tMFdJMWtBT2VrU3RJVWRDdmlxNHFUbHFoWUtLRDBoVVdma1lHMVFrcHQ0am83VDg3Y3pzZ0NEcElGVzRueTJhTFdxczJVd1p3bVJfcTlQWDh3NmVveTVWY1BJOWw5U0I4Qkx1eGpz?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : \"Canal+\" \"appel d'offres\""
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-23"
  },
  {
   "score": 5,
