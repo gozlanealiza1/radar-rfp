@@ -1,6 +1,84 @@
 [
  {
   "score": 3,
+  "id": "TED:815593-2026",
+  "source": "TED",
+  "ref": "815593-2026",
+  "titre": "Espagne – Services de production télévisuelle – Servicios de produccion de contenidos audiovisuales para el EPRTVIB en las Islas Baleares.",
+  "acheteur": "Ente Público de Radiotelevisión de las Illes Balears",
+  "pays": "ESP",
+  "publie": "2026-11-24",
+  "date_limite": "",
+  "lien": "https://ted.europa.eu/fr/notice/-/detail/815593-2026",
+  "type": "Attribution",
+  "cpv": [
+   "92221000",
+   "92224000",
+   "92221000",
+   "92224000"
+  ],
+  "pourquoi": [
+   "CPV 92224000",
+   "CPV 92221000"
+  ],
+  "comptes": [],
+  "nature": "rfp",
+  "resume": "",
+  "vu_le": "2026-11-24"
+ },
+ {
+  "score": 4,
+  "id": "TED:815940-2026",
+  "source": "TED",
+  "ref": "815940-2026",
+  "titre": "Espagne – Retransmission de programmes de télévision – Grabación, realización audiovisual y retransmisión vía streaming de los órganos de gobierno y participación de los Distritos del Ayuntamiento de Barcelona.",
+  "acheteur": "Ajuntament de Barcelona",
+  "pays": "ESP",
+  "publie": "2026-11-24",
+  "date_limite": "2026-12-11",
+  "lien": "https://ted.europa.eu/fr/notice/-/detail/815940-2026",
+  "type": "Avis de marché",
+  "cpv": [
+   "64228100",
+   "64228100",
+   "64228100",
+   "64228100"
+  ],
+  "pourquoi": [
+   "streaming",
+   "CPV 64228100"
+  ],
+  "comptes": [],
+  "nature": "rfp",
+  "resume": "",
+  "vu_le": "2026-11-24"
+ },
+ {
+  "score": 3,
+  "id": "TED:816282-2026",
+  "source": "TED",
+  "ref": "816282-2026",
+  "titre": "Allemagne – Retransmission de programmes de télévision et de radio – Vergabe von Leistungen der Tragwerksplanung für die Sanierung eines ehemaligen Hofes, bestehend aus drei Gebäuden",
+  "acheteur": "Clayston Rechtsanwälte Partnerschaft mbB",
+  "pays": "DEU",
+  "publie": "2026-11-24",
+  "date_limite": "2027-02-05",
+  "lien": "https://ted.europa.eu/fr/notice/-/detail/816282-2026",
+  "type": "Avis de marché",
+  "cpv": [
+   "64228000",
+   "71327000"
+  ],
+  "pourquoi": [
+   "CPV 64228000"
+  ],
+  "comptes": [],
+  "nature": "rfp",
+  "resume": "",
+  "vu_le": "2026-11-24"
+ },
+ {
+  "score": 3,
   "id": "TED:812543-2026",
   "source": "TED",
   "ref": "812543-2026",
@@ -52,7 +130,91 @@
   "comptes": [],
   "nature": "rfp",
   "resume": "",
-  "vu_le": "2026-11-23"
+  "vu_le": "2026-11-24"
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMizgFBVV95cUxPQjYyUFAxOFY1cVJCQV8xRHY4d0tXZkx1STFKYXNVQncyYmVhd2x6M1JMYVVsWHFsT3laNVlYY3doRTBmOUloNjFyQVM1TE1UY1o3eE1ILW55SUg2MVduZTYyLUxPcFdQZ21PSUxhNFpRb3JxRFlwWnBjWWVFRHRaNzFUOGV5cEtMc1hKcVIxc0poNkJuazBiT2VFSVV4YS10OVduelVIS2ZOMHlGREo2VC1na3VQcWs2TjBwRm5Jell0WnJNaXlPMXRXcG1hUdIB1gFBVV95cUxNMGQ3UXpqcS1mbi1GNFhDWEw4LURiVWZfUzNFUWVBMGNoZ3VTSVFLZmVNUW5felFiLU1ycllyTDVvVkdLQ3ZYMmxrSGtNclRzNHZqc2ZWWTN0SWhHNVJUcmpvc19lQjQ4NEEyWm5XZTRvWEhFWWlfVVhYT0h1S2oyaUE5al9Ra1l3RURTbmdGWlRkODdzVWQ4ak1ZSzZoLXVzQVZkN3AxbGR3cHFmYkt0OUZiNFY5SGFWWkhvYlFKYUh6S3lzazZVZDhMVlRjaE84OHJLNVVR?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQjYyUFAxOFY1cVJCQV8xRHY4d0tXZkx1STFKYXNVQncyYmVhd2x6M1JMYVVsWHFsT3laNVlYY3doRTBmOUloNjFyQVM1TE1UY1o3eE1ILW55SUg2MVduZTYyLUxPcFdQZ21PSUxhNFpRb3JxRFlwWnBjWWVFRHRaNzFUOGV5cEtMc1hKcVIxc0poNkJuazBiT2VFSVV4YS10OVduelVIS2ZOMHlGREo2VC1na3VQcWs2TjBwRm5Jell0WnJNaXlPMXRXcG1hUdIB1gFBVV95cUxNMGQ3UXpqcS1mbi1GNFhDWEw4LURiVWZfUzNFUWVBMGNoZ3VTSVFLZmVNUW5felFiLU1ycllyTDVvVkdLQ3ZYMmxrSGtNclRzNHZqc2ZWWTN0SWhHNVJUcmpvc19lQjQ4NEEyWm5XZTRvWEhFWWlfVVhYT0h1S2oyaUE5al9Ra1l3RURTbmdGWlRkODdzVWQ4ak1ZSzZoLXVzQVZkN3AxbGR3cHFmYkt0OUZiNFY5SGFWWkhvYlFKYUh6S3lzazZVZDhMVlRjaE84OHJLNVVR?oc=5",
+  "titre": "FIFA picks US-led bid as 2031 Women's World Cup host, UK project for 2035 - NBC 5 Dallas-Fort Worth",
+  "acheteur": "NBC 5 Dallas-Fort Worth",
+  "pays": "",
+  "publie": "2026-11-23",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQjYyUFAxOFY1cVJCQV8xRHY4d0tXZkx1STFKYXNVQncyYmVhd2x6M1JMYVVsWHFsT3laNVlYY3doRTBmOUloNjFyQVM1TE1UY1o3eE1ILW55SUg2MVduZTYyLUxPcFdQZ21PSUxhNFpRb3JxRFlwWnBjWWVFRHRaNzFUOGV5cEtMc1hKcVIxc0poNkJuazBiT2VFSVV4YS10OVduelVIS2ZOMHlGREo2VC1na3VQcWs2TjBwRm5Jell0WnJNaXlPMXRXcG1hUdIB1gFBVV95cUxNMGQ3UXpqcS1mbi1GNFhDWEw4LURiVWZfUzNFUWVBMGNoZ3VTSVFLZmVNUW5felFiLU1ycllyTDVvVkdLQ3ZYMmxrSGtNclRzNHZqc2ZWWTN0SWhHNVJUcmpvc19lQjQ4NEEyWm5XZTRvWEhFWWlfVVhYT0h1S2oyaUE5al9Ra1l3RURTbmdGWlRkODdzVWQ4ak1ZSzZoLXVzQVZkN3AxbGR3cHFmYkt0OUZiNFY5SGFWWkhvYlFKYUh6S3lzazZVZDhMVlRjaE84OHJLNVVR?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : host broadcaster tender"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-24"
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMi4AFBVV95cUxPT3ZwR29UOXBQZUVhTEJ0Zm9PaDRQS0x3cEwxdHF2Y3ZUOUZYRE9yd09FeHVQQTZ2X0hxX1Z5NTF0Z2NfWm5UdEtMUk5WUGl4dHBZelctM1hfdDJjMW1Cdk1OdEVLMGI2R0JOX0tfV3pMNk9zY1poWkZobHF2YUUtWnVIUnVjaG1EYTdISjd3Z3dFTGFGM2NlNUIzbVN1RWd0Y2wtZ21udl9kWEN6TUNDZDV1Z3IzemJBbmNlNHh6YTVwT29XWmtJeXFWVzhqOUdURnVYUGZLaWpsX3R0bUtHVQ?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPT3ZwR29UOXBQZUVhTEJ0Zm9PaDRQS0x3cEwxdHF2Y3ZUOUZYRE9yd09FeHVQQTZ2X0hxX1Z5NTF0Z2NfWm5UdEtMUk5WUGl4dHBZelctM1hfdDJjMW1Cdk1OdEVLMGI2R0JOX0tfV3pMNk9zY1poWkZobHF2YUUtWnVIUnVjaG1EYTdISjd3Z3dFTGFGM2NlNUIzbVN1RWd0Y2wtZ21udl9kWEN6TUNDZDV1Z3IzemJBbmNlNHh6YTVwT29XWmtJeXFWVzhqOUdURnVYUGZLaWpsX3R0bUtHVQ?oc=5",
+  "titre": "FIFA picks United States-led bid to host 2031 Women’s World Cup, UK bid for 2035 edition - WCNC",
+  "acheteur": "WCNC",
+  "pays": "",
+  "publie": "2026-11-23",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPT3ZwR29UOXBQZUVhTEJ0Zm9PaDRQS0x3cEwxdHF2Y3ZUOUZYRE9yd09FeHVQQTZ2X0hxX1Z5NTF0Z2NfWm5UdEtMUk5WUGl4dHBZelctM1hfdDJjMW1Cdk1OdEVLMGI2R0JOX0tfV3pMNk9zY1poWkZobHF2YUUtWnVIUnVjaG1EYTdISjd3Z3dFTGFGM2NlNUIzbVN1RWd0Y2wtZ21udl9kWEN6TUNDZDV1Z3IzemJBbmNlNHh6YTVwT29XWmtJeXFWVzhqOUdURnVYUGZLaWpsX3R0bUtHVQ?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : host broadcaster tender"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-24"
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMifEFVX3lxTE1lWFFVZ0pjck9HTjdvOXhDSzRtb3huVjNIb2U5bnAtb2FqX2RzVU5rMUx0UDQtWGhzYVNnU3VZay1yZVk5djFNck5aZFp6NlBGS2tVMVA3ZlRvY0V0VG9xQjhpVVpaSmI5bmNvbXViVHdlRmFFLUxxRGs1V3o?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1lWFFVZ0pjck9HTjdvOXhDSzRtb3huVjNIb2U5bnAtb2FqX2RzVU5rMUx0UDQtWGhzYVNnU3VZay1yZVk5djFNck5aZFp6NlBGS2tVMVA3ZlRvY0V0VG9xQjhpVVpaSmI5bmNvbXViVHdlRmFFLUxxRGs1V3o?oc=5",
+  "titre": "USA joint bid to host 2031 Women's World Cup, UK to host in 2035 - Yahoo Sports",
+  "acheteur": "Yahoo Sports",
+  "pays": "",
+  "publie": "2026-11-23",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1lWFFVZ0pjck9HTjdvOXhDSzRtb3huVjNIb2U5bnAtb2FqX2RzVU5rMUx0UDQtWGhzYVNnU3VZay1yZVk5djFNck5aZFp6NlBGS2tVMVA3ZlRvY0V0VG9xQjhpVVpaSmI5bmNvbXViVHdlRmFFLUxxRGs1V3o?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : host broadcaster tender"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-24"
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMiggFBVV95cUxPcWlTZVlTSUJPTi13M1NNM2IxYThfT05wWkRvWmJ2NnJNV1NONVNpbEpHUURBWnRCSzl5elBfTlJKNmsxT01KdFd3MVNfbjlzOUZjbXM1V19KVHQyc0JIYjVBTXBUOUw4NkhYTkQyZnJ2cUk4QkZOQWU0QUt4S3o3Y3dB?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcWlTZVlTSUJPTi13M1NNM2IxYThfT05wWkRvWmJ2NnJNV1NONVNpbEpHUURBWnRCSzl5elBfTlJKNmsxT01KdFd3MVNfbjlzOUZjbXM1V19KVHQyc0JIYjVBTXBUOUw4NkhYTkQyZnJ2cUk4QkZOQWU0QUt4S3o3Y3dB?oc=5",
+  "titre": "FIFA Officially Picks U.S.-Led Bid for 2031 Women’s World Cup - Yahoo Sports",
+  "acheteur": "Yahoo Sports",
+  "pays": "",
+  "publie": "2026-11-23",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcWlTZVlTSUJPTi13M1NNM2IxYThfT05wWkRvWmJ2NnJNV1NONVNpbEpHUURBWnRCSzl5elBfTlJKNmsxT01KdFd3MVNfbjlzOUZjbXM1V19KVHQyc0JIYjVBTXBUOUw4NkhYTkQyZnJ2cUk4QkZOQWU0QUt4S3o3Y3dB?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : host broadcaster tender"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-24"
  },
  {
   "score": 0,
@@ -95,6 +257,27 @@
   "nature": "signal",
   "resume": "",
   "vu_le": "2026-11-23"
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMihAFBVV95cUxQUDdVUWpLd0hMSExjYXJGb2o0YXZiRVh1TUd1bTJ3d2djMzF5SFhDSWVnV0FUeGJMSFRWa2tIdVJUQXZ0V1lQMDBhaFpuc2xEb2dYVEE2bVJuMkdwVGtPOUpLWF9UMHdqUHY3TUJXYVRXNWFDUTJ5OW16Q2dhTmo1dmYybWU?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUDdVUWpLd0hMSExjYXJGb2o0YXZiRVh1TUd1bTJ3d2djMzF5SFhDSWVnV0FUeGJMSFRWa2tIdVJUQXZ0V1lQMDBhaFpuc2xEb2dYVEE2bVJuMkdwVGtPOUpLWF9UMHdqUHY3TUJXYVRXNWFDUTJ5OW16Q2dhTmo1dmYybWU?oc=5",
+  "titre": "Fox teams with Univision for World Cup bid; NBC bows out - Yahoo Sports",
+  "acheteur": "Yahoo Sports",
+  "pays": "",
+  "publie": "2026-11-20",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUDdVUWpLd0hMSExjYXJGb2o0YXZiRVh1TUd1bTJ3d2djMzF5SFhDSWVnV0FUeGJMSFRWa2tIdVJUQXZ0V1lQMDBhaFpuc2xEb2dYVEE2bVJuMkdwVGtPOUpLWF9UMHdqUHY3TUJXYVRXNWFDUTJ5OW16Q2dhTmo1dmYybWU?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : host broadcaster tender"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-24"
  },
  {
   "score": 0,
