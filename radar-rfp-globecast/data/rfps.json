@@ -78,6 +78,27 @@
   "vu_le": "2026-11-24"
  },
  {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMijgFBVV95cUxQV0VycG5TSVhkdkhINDY1NnAyb19lQVdrVDg4MlJnaWsxTzBoOHNoOXBwemdPWjhkWmg0MGNMTlVrN2pJSWk5MTFaWVlTQ3lKLXlBNmZGQkVXTjVKdGZISkZ2NXpyTk9IcU1CY3dsZjBGV2VsRGtUa19CbzgzdTctTFZUVFVHZmIxNUtJNnpB?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV0VycG5TSVhkdkhINDY1NnAyb19lQVdrVDg4MlJnaWsxTzBoOHNoOXBwemdPWjhkWmg0MGNMTlVrN2pJSWk5MTFaWVlTQ3lKLXlBNmZGQkVXTjVKdGZISkZ2NXpyTk9IcU1CY3dsZjBGV2VsRGtUa19CbzgzdTctTFZUVFVHZmIxNUtJNnpB?oc=5",
+  "titre": "UK to Host 2035 FIFA Women’s World Cup After Successful Bid - Olorisupergal",
+  "acheteur": "Olorisupergal",
+  "pays": "",
+  "publie": "2026-11-24",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV0VycG5TSVhkdkhINDY1NnAyb19lQVdrVDg4MlJnaWsxTzBoOHNoOXBwemdPWjhkWmg0MGNMTlVrN2pJSWk5MTFaWVlTQ3lKLXlBNmZGQkVXTjVKdGZISkZ2NXpyTk9IcU1CY3dsZjBGV2VsRGtUa19CbzgzdTctTFZUVFVHZmIxNUtJNnpB?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : host broadcaster tender"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-25"
+ },
+ {
   "score": 3,
   "id": "TED:812543-2026",
   "source": "TED",
@@ -100,37 +121,6 @@
   "nature": "rfp",
   "resume": "",
   "vu_le": "2026-11-23"
- },
- {
-  "score": 3,
-  "id": "TED:813301-2026",
-  "source": "TED",
-  "ref": "813301-2026",
-  "titre": "Tchéquie – Services de publicité – Dynamický nákupní systém – Nákup mediálního prostoru",
-  "acheteur": "Zdravotní pojišťovna ministerstva vnitra České republiky",
-  "pays": "CZE",
-  "publie": "2026-11-23",
-  "date_limite": "",
-  "lien": "https://ted.europa.eu/fr/notice/-/detail/813301-2026",
-  "type": "Avis de marché",
-  "cpv": [
-   "79341000",
-   "79341400",
-   "79341000",
-   "79341000",
-   "79341000",
-   "79341000",
-   "79341000",
-   "79341000"
-  ],
-  "pourquoi": [
-   "CPV 92220000",
-   "CPV 92210000"
-  ],
-  "comptes": [],
-  "nature": "rfp",
-  "resume": "",
-  "vu_le": "2026-11-24"
  },
  {
   "score": 0,
@@ -215,6 +205,100 @@
   "nature": "signal",
   "resume": "",
   "vu_le": "2026-11-24"
+ },
+ {
+  "score": 3,
+  "id": "TED:813301-2026",
+  "source": "TED",
+  "ref": "813301-2026",
+  "titre": "Tchéquie – Services de publicité – Dynamický nákupní systém – Nákup mediálního prostoru",
+  "acheteur": "Zdravotní pojišťovna ministerstva vnitra České republiky",
+  "pays": "CZE",
+  "publie": "2026-11-23",
+  "date_limite": "",
+  "lien": "https://ted.europa.eu/fr/notice/-/detail/813301-2026",
+  "type": "Avis de marché",
+  "cpv": [
+   "79341000",
+   "79341400",
+   "79341000",
+   "79341000",
+   "79341000",
+   "79341000",
+   "79341000",
+   "79341000"
+  ],
+  "pourquoi": [
+   "CPV 92220000",
+   "CPV 92210000"
+  ],
+  "comptes": [],
+  "nature": "rfp",
+  "resume": "",
+  "vu_le": "2026-11-25"
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMi4wJBVV95cUxOQ3lURFpuMkVXT0I3N1FMUWc1eVZsZmVCOXduUzlBbS1vZHVsTmEyMVRlMG9FcGJTWldpM3NDRTVsaXdRcDlaNk1Wck82c19MNEVQekR3aFpwUjRacWNMTm5wbmlLUTEwc1psOEUxWTR3b0Y0Uy1rdWlJYUQ1UDdQVzJOdi1VWlQyU2x0alFPcUxWQ3JqTU1QMHE5S1htd0dxazVKMGRkVzcyenNueDQwSUFIWTZZaW9xM2NJa0U0TW1GZjJyanUxbkw2UURCQVBibmpqUjhGZzk1T20tYjNlTmpYU0pLZ2FoMEJ3RzZzSkJvVVBaWlU4OEgxV1czdGUyVjVrNWNjc3lkWG1pZTZYc2NJZ0lOdEY4cEpBaXA4QnQxUFlJZFNST3ZKTkRZeGhnOC1rd3NvQlBqa19WVWdVWUJIdi0wZWZPdnVPUVVuSzY3RFR2Vy10ZFlHWk5KSTZ6ZXZR?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxOQ3lURFpuMkVXT0I3N1FMUWc1eVZsZmVCOXduUzlBbS1vZHVsTmEyMVRlMG9FcGJTWldpM3NDRTVsaXdRcDlaNk1Wck82c19MNEVQekR3aFpwUjRacWNMTm5wbmlLUTEwc1psOEUxWTR3b0Y0Uy1rdWlJYUQ1UDdQVzJOdi1VWlQyU2x0alFPcUxWQ3JqTU1QMHE5S1htd0dxazVKMGRkVzcyenNueDQwSUFIWTZZaW9xM2NJa0U0TW1GZjJyanUxbkw2UURCQVBibmpqUjhGZzk1T20tYjNlTmpYU0pLZ2FoMEJ3RzZzSkJvVVBaWlU4OEgxV1czdGUyVjVrNWNjc3lkWG1pZTZYc2NJZ0lOdEY4cEpBaXA4QnQxUFlJZFNST3ZKTkRZeGhnOC1rd3NvQlBqa19WVWdVWUJIdi0wZWZPdnVPUVVuSzY3RFR2Vy10ZFlHWk5KSTZ6ZXZR?oc=5",
+  "titre": "Washington state makes bid to host Trump's Space Academy, Space Force training site - KOMO",
+  "acheteur": "KOMO",
+  "pays": "",
+  "publie": "2026-11-23",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxOQ3lURFpuMkVXT0I3N1FMUWc1eVZsZmVCOXduUzlBbS1vZHVsTmEyMVRlMG9FcGJTWldpM3NDRTVsaXdRcDlaNk1Wck82c19MNEVQekR3aFpwUjRacWNMTm5wbmlLUTEwc1psOEUxWTR3b0Y0Uy1rdWlJYUQ1UDdQVzJOdi1VWlQyU2x0alFPcUxWQ3JqTU1QMHE5S1htd0dxazVKMGRkVzcyenNueDQwSUFIWTZZaW9xM2NJa0U0TW1GZjJyanUxbkw2UURCQVBibmpqUjhGZzk1T20tYjNlTmpYU0pLZ2FoMEJ3RzZzSkJvVVBaWlU4OEgxV1czdGUyVjVrNWNjc3lkWG1pZTZYc2NJZ0lOdEY4cEpBaXA4QnQxUFlJZFNST3ZKTkRZeGhnOC1rd3NvQlBqa19WVWdVWUJIdi0wZWZPdnVPUVVuSzY3RFR2Vy10ZFlHWk5KSTZ6ZXZR?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : host broadcaster tender"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-25"
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMib0FVX3lxTE1HSTFSNEtZcG9FejZIRjZyeUhUR2E5R1NLMUktamVJM21BdnBNZG8wOFIwQUY1UkdweS1tRTJvT3ljR2psaTNDQlJKWnpQZmpVRHZsMmNxV0R5c1JJYV9JLVhEc0NQczd5dm1ubmE3VQ?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1HSTFSNEtZcG9FejZIRjZyeUhUR2E5R1NLMUktamVJM21BdnBNZG8wOFIwQUY1UkdweS1tRTJvT3ljR2psaTNDQlJKWnpQZmpVRHZsMmNxV0R5c1JJYV9JLVhEc0NQczd5dm1ubmE3VQ?oc=5",
+  "titre": "Washington state submits bid to host U.S. Space Academy - FOX 13 Seattle",
+  "acheteur": "FOX 13 Seattle",
+  "pays": "",
+  "publie": "2026-11-23",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1HSTFSNEtZcG9FejZIRjZyeUhUR2E5R1NLMUktamVJM21BdnBNZG8wOFIwQUY1UkdweS1tRTJvT3ljR2psaTNDQlJKWnpQZmpVRHZsMmNxV0R5c1JJYV9JLVhEc0NQczd5dm1ubmE3VQ?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : host broadcaster tender"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-25"
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMiekFVX3lxTE9QM2lqN01VNTlhUzB0UDJ1RlRRWXFzN3VydWxneHBCVEF4MTZvNjExbW9QNkVNWHdXc0llM2ZXUDVrNTFxTWNJay1Venpmekh0RlRwSW1VeDZHeWxMQnFyUGtRNW5IbmJMaU4wU3JyT2xyekd3cUF4UGNB?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9QM2lqN01VNTlhUzB0UDJ1RlRRWXFzN3VydWxneHBCVEF4MTZvNjExbW9QNkVNWHdXc0llM2ZXUDVrNTFxTWNJay1Venpmekh0RlRwSW1VeDZHeWxMQnFyUGtRNW5IbmJMaU4wU3JyT2xyekd3cUF4UGNB?oc=5",
+  "titre": "FIFA picks US-led bid as 2031 Women’s World Cup host and UK project for 2035 edition - Yahoo Sports",
+  "acheteur": "Yahoo Sports",
+  "pays": "",
+  "publie": "2026-11-23",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9QM2lqN01VNTlhUzB0UDJ1RlRRWXFzN3VydWxneHBCVEF4MTZvNjExbW9QNkVNWHdXc0llM2ZXUDVrNTFxTWNJay1Venpmekh0RlRwSW1VeDZHeWxMQnFyUGtRNW5IbmJMaU4wU3JyT2xyekd3cUF4UGNB?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : host broadcaster tender"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-25"
  },
  {
   "score": 0,
