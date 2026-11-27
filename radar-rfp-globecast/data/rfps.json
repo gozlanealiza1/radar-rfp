@@ -64,6 +64,28 @@
   "vu_le": "2026-11-26"
  },
  {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMizAFBVV95cUxNcWR5bnJDbTN1cUthbDRHOHVxMldSN05mc0x0a3hpM1hBTDVyREVMVGpQNFpPdUVRYjR1c00zNHc5bm1WOUU1OUtiT3M2VVVUTXhLLXY2NmxiQ1RuU3JUa3F3b0tvOVlUM0IwcTMza1VFTTVDSWJRemo4ME1TY2ZmMkFGeXVPdU9QVllYRE5RX0JxMXB2c3BEejBYZlRrNW92a09EQmtjN0tqTjktSXZZMnRzQmhEVWg2LXhRZFZtc0NMTVJwYy1XQW5oRVc?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcWR5bnJDbTN1cUthbDRHOHVxMldSN05mc0x0a3hpM1hBTDVyREVMVGpQNFpPdUVRYjR1c00zNHc5bm1WOUU1OUtiT3M2VVVUTXhLLXY2NmxiQ1RuU3JUa3F3b0tvOVlUM0IwcTMza1VFTTVDSWJRemo4ME1TY2ZmMkFGeXVPdU9QVllYRE5RX0JxMXB2c3BEejBYZlRrNW92a09EQmtjN0tqTjktSXZZMnRzQmhEVWg2LXhRZFZtc0NMTVJwYy1XQW5oRVc?oc=5",
+  "titre": "Ligue 1 TV tender: €300–400m a season, not €1bn - The Esk",
+  "acheteur": "The Esk",
+  "pays": "",
+  "publie": "2026-11-25",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcWR5bnJDbTN1cUthbDRHOHVxMldSN05mc0x0a3hpM1hBTDVyREVMVGpQNFpPdUVRYjR1c00zNHc5bm1WOUU1OUtiT3M2VVVUTXhLLXY2NmxiQ1RuU3JUa3F3b0tvOVlUM0IwcTMza1VFTTVDSWJRemo4ME1TY2ZmMkFGeXVPdU9QVllYRE5RX0JxMXB2c3BEejBYZlRrNW92a09EQmtjN0tqTjktSXZZMnRzQmhEVWg2LXhRZFZtc0NMTVJwYy1XQW5oRVc?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : beIN tender broadcast",
+   "recherche : \"Canal+\" tender broadcast"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-27"
+ },
+ {
   "score": 3,
   "id": "TED:815593-2026",
   "source": "TED",
@@ -182,6 +204,48 @@
   "nature": "signal",
   "resume": "",
   "vu_le": "2026-11-26"
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMirAFBVV95cUxOQWhtNjJCZnlEOV9LYjFLTFdTN0tMQUFiSHlMalZvYm0zejZHcnh0NHM0MEdsa2xoN0QzS0lrMkw1NWdiSnJDWVFxa1d6UW5sWVJybUl5bUFNRUJ5V01ETnBNX2lFVHlqZVU4NHZPajA0cTZDdTdGa1phMnJwbnlsbmJlNjk2Um13dk41c2h1bGZCNnB0ZW1Xc3lxVlRKWmExVDFHRTVuUUJmbzhO?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQWhtNjJCZnlEOV9LYjFLTFdTN0tMQUFiSHlMalZvYm0zejZHcnh0NHM0MEdsa2xoN0QzS0lrMkw1NWdiSnJDWVFxa1d6UW5sWVJybUl5bUFNRUJ5V01ETnBNX2lFVHlqZVU4NHZPajA0cTZDdTdGa1phMnJwbnlsbmJlNjk2Um13dk41c2h1bGZCNnB0ZW1Xc3lxVlRKWmExVDFHRTVuUUJmbzhO?oc=5",
+  "titre": "DAZN and Viaplay among winners in latest UEFA club rights tender - Broadband TV News",
+  "acheteur": "Broadband TV News",
+  "pays": "",
+  "publie": "2026-11-24",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQWhtNjJCZnlEOV9LYjFLTFdTN0tMQUFiSHlMalZvYm0zejZHcnh0NHM0MEdsa2xoN0QzS0lrMkw1NWdiSnJDWVFxa1d6UW5sWVJybUl5bUFNRUJ5V01ETnBNX2lFVHlqZVU4NHZPajA0cTZDdTdGa1phMnJwbnlsbmJlNjk2Um13dk41c2h1bGZCNnB0ZW1Xc3lxVlRKWmExVDFHRTVuUUJmbzhO?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : host broadcaster tender"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-27"
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTlRxLVgycjF4MGcwWGU4cXM3WVA2amVQbHU1SVVtTkZha0lpejBZMENWdzQ1YTdZZDA1S01pMjNVQ3VYa2lOY1k3Z2tyWDlLVDFGSDJ6Q1R1dmd6UWNJZTZWX0pGVkNmcldqN3JpMEYtRkNPYTJjaGp0aThyY3VkQVJHRjdxZzB1NXB0RlRnSWpTakZHdWpSOXY4a2JUREViSVk1c1psRGw?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTlRxLVgycjF4MGcwWGU4cXM3WVA2amVQbHU1SVVtTkZha0lpejBZMENWdzQ1YTdZZDA1S01pMjNVQ3VYa2lOY1k3Z2tyWDlLVDFGSDJ6Q1R1dmd6UWNJZTZWX0pGVkNmcldqN3JpMEYtRkNPYTJjaGp0aThyY3VkQVJHRjdxZzB1NXB0RlRnSWpTakZHdWpSOXY4a2JUREViSVk1c1psRGw?oc=5",
+  "titre": "Thai Navy cancels Hanwha Ocean selection over tender rule gaps - Cyprus Shipping News",
+  "acheteur": "Cyprus Shipping News",
+  "pays": "",
+  "publie": "2026-11-24",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTlRxLVgycjF4MGcwWGU4cXM3WVA2amVQbHU1SVVtTkZha0lpejBZMENWdzQ1YTdZZDA1S01pMjNVQ3VYa2lOY1k3Z2tyWDlLVDFGSDJ6Q1R1dmd6UWNJZTZWX0pGVkNmcldqN3JpMEYtRkNPYTJjaGp0aThyY3VkQVJHRjdxZzB1NXB0RlRnSWpTakZHdWpSOXY4a2JUREViSVk1c1psRGw?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : host broadcaster tender"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-27"
  },
  {
   "score": 3,
@@ -355,37 +419,6 @@
   "vu_le": "2026-11-25"
  },
  {
-  "score": 3,
-  "id": "TED:813301-2026",
-  "source": "TED",
-  "ref": "813301-2026",
-  "titre": "Tchéquie – Services de publicité – Dynamický nákupní systém – Nákup mediálního prostoru",
-  "acheteur": "Zdravotní pojišťovna ministerstva vnitra České republiky",
-  "pays": "CZE",
-  "publie": "2026-11-23",
-  "date_limite": "",
-  "lien": "https://ted.europa.eu/fr/notice/-/detail/813301-2026",
-  "type": "Avis de marché",
-  "cpv": [
-   "79341000",
-   "79341400",
-   "79341000",
-   "79341000",
-   "79341000",
-   "79341000",
-   "79341000",
-   "79341000"
-  ],
-  "pourquoi": [
-   "CPV 92220000",
-   "CPV 92210000"
-  ],
-  "comptes": [],
-  "nature": "rfp",
-  "resume": "",
-  "vu_le": "2026-11-26"
- },
- {
   "score": 0,
   "id": "Presse:https://news.google.com/rss/articles/CBMi4AFBVV95cUxPeWNpQ0x2X3BxNDN6X2xvb1VGVk9WemhBU21UaWNXOHAwWmcxQkt6SW5wTWZ6OEJmbnRIeHFlampRSkVCenliU3UxSTlOYW12Z2xrbXFkZXpLZ3VDUnBIdHgwMUs2TDBMS1JBZTJOWVhCM290TW80UnVTeUM3NmNXV0tzNEdjUVAwNkxpamdfeDlmQVREbjRub1pzeGNleHFGS0VsUmJXVnlWbHJSY1NIYVA0cWYxTGlfMndkaGppYncxQTdnaVYzbHdCbWdTZnVxNU1reF9sOTZ0UE9FanhHVQ?oc=5",
   "source": "Presse",
@@ -405,6 +438,27 @@
   "nature": "signal",
   "resume": "",
   "vu_le": "2026-11-26"
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMiekFVX3lxTE1Sb3ZjejYxTnNYWWpMSGJQeXloNGZuQURsVEtNaGxNQmpTVDdpd2ZrMWRHcWZiSHFOak9uR0ZOZ3ZtOUtVdEh2STJBcXFtbTB0Z2x4WTZ2NU1IdTdLbVFCNElDd2RublA2MmNPYjQxQUt0b0dDZ056aHp3?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1Sb3ZjejYxTnNYWWpMSGJQeXloNGZuQURsVEtNaGxNQmpTVDdpd2ZrMWRHcWZiSHFOak9uR0ZOZ3ZtOUtVdEh2STJBcXFtbTB0Z2x4WTZ2NU1IdTdLbVFCNElDd2RublA2MmNPYjQxQUt0b0dDZ056aHp3?oc=5",
+  "titre": "FIFA picks US-led bid as 2031 Women’s World Cup host and UK project for 2035 edition - Yahoo Sports",
+  "acheteur": "Yahoo Sports",
+  "pays": "",
+  "publie": "2026-11-23",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1Sb3ZjejYxTnNYWWpMSGJQeXloNGZuQURsVEtNaGxNQmpTVDdpd2ZrMWRHcWZiSHFOak9uR0ZOZ3ZtOUtVdEh2STJBcXFtbTB0Z2x4WTZ2NU1IdTdLbVFCNElDd2RublA2MmNPYjQxQUt0b0dDZ056aHp3?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : host broadcaster tender"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-27"
  },
  {
   "score": 0,
@@ -510,6 +564,27 @@
   "nature": "signal",
   "resume": "",
   "vu_le": "2026-11-21"
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMimAFBVV95cUxNdFNVWjZUemFlZVVzd3NsTHVwNXM3Wmd2U1N5TWlmdDJIZm4tMTZXUnBhQzJFUUsyWlV1QUs4ZjFMMkhEc3NIUXlwbXA4U2xNYnAyd0JfRlZabkFTWjRDS1JoeUVkQ25VUlVYcE12TmUtQkIyc2tqUXRNVVVuNklnQ1JzeDJsR051WWFRZnI5Q1hBeFBpTm9xeQ?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdFNVWjZUemFlZVVzd3NsTHVwNXM3Wmd2U1N5TWlmdDJIZm4tMTZXUnBhQzJFUUsyWlV1QUs4ZjFMMkhEc3NIUXlwbXA4U2xNYnAyd0JfRlZabkFTWjRDS1JoeUVkQ25VUlVYcE12TmUtQkIyc2tqUXRNVVVuNklnQ1JzeDJsR051WWFRZnI5Q1hBeFBpTm9xeQ?oc=5",
+  "titre": "Netflix, Fox and the $2bn bid for the 2030 World Cup that could reshape live sports - The Guardian",
+  "acheteur": "The Guardian",
+  "pays": "",
+  "publie": "2026-11-19",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdFNVWjZUemFlZVVzd3NsTHVwNXM3Wmd2U1N5TWlmdDJIZm4tMTZXUnBhQzJFUUsyWlV1QUs4ZjFMMkhEc3NIUXlwbXA4U2xNYnAyd0JfRlZabkFTWjRDS1JoeUVkQ25VUlVYcE12TmUtQkIyc2tqUXRNVVVuNklnQ1JzeDJsR051WWFRZnI5Q1hBeFBpTm9xeQ?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : host broadcaster tender"
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-27"
  },
  {
   "score": 3,
@@ -1451,6 +1526,27 @@
   "vu_le": "2026-11-26"
  },
  {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQ0ltaTlYcVNTd0c1NmtKa2haelZtVkJIOUYwdFphV3lxaDZ1cC1KUjdJTDdod3NJZnc2OV9iTmE2RXhuNHJfMWI1VjlpYW9vNXpUMW5pN2xxRVFUZHphczN4YndYNXJVNjFNOUt0eHdmMEM2d01QT3dXWnFSU3dFSFQxNzZGWnc3VTVycGtuajNWODZEZVJRTW5UTGlBblZ6Znk0eVNhZDJRbkNBMnZCXzFrSk10LU92eDFFN0RMa241RGFrdnNRSW8wbno4QXY1VVhvajNtdVAxNlo2VnJLTGY0cEFRMXhJYmYwQg?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQ0ltaTlYcVNTd0c1NmtKa2haelZtVkJIOUYwdFphV3lxaDZ1cC1KUjdJTDdod3NJZnc2OV9iTmE2RXhuNHJfMWI1VjlpYW9vNXpUMW5pN2xxRVFUZHphczN4YndYNXJVNjFNOUt0eHdmMEM2d01QT3dXWnFSU3dFSFQxNzZGWnc3VTVycGtuajNWODZEZVJRTW5UTGlBblZ6Znk0eVNhZDJRbkNBMnZCXzFrSk10LU92eDFFN0RMa241RGFrdnNRSW8wbno4QXY1VVhvajNtdVAxNlo2VnJLTGY0cEFRMXhJYmYwQg?oc=5",
+  "titre": "Droits télé de la Ligue 1 : le foot français suspendu à un nouvel appel d’offres - Libération",
+  "acheteur": "Libération",
+  "pays": "",
+  "publie": "2026-11-03",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQ0ltaTlYcVNTd0c1NmtKa2haelZtVkJIOUYwdFphV3lxaDZ1cC1KUjdJTDdod3NJZnc2OV9iTmE2RXhuNHJfMWI1VjlpYW9vNXpUMW5pN2xxRVFUZHphczN4YndYNXJVNjFNOUt0eHdmMEM2d01QT3dXWnFSU3dFSFQxNzZGWnc3VTVycGtuajNWODZEZVJRTW5UTGlBblZ6Znk0eVNhZDJRbkNBMnZCXzFrSk10LU92eDFFN0RMa241RGFrdnNRSW8wbno4QXY1VVhvajNtdVAxNlo2VnJLTGY0cEFRMXhJYmYwQg?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : \"Canal+\" \"appel d'offres\""
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-27"
+ },
+ {
   "score": 5,
   "id": "TED:756529-2026",
   "source": "TED",
@@ -1610,6 +1706,27 @@
   "nature": "signal",
   "resume": "",
   "vu_le": "2026-11-06"
+ },
+ {
+  "score": 0,
+  "id": "Presse:https://news.google.com/rss/articles/CBMiywFBVV95cUxNcDFRM1lUVFRDNWFlNEo2a0hMWFl6LW01TUVLMXVYamNidWhILWZENVl0WlFSbHc2RTljTmwtSjV2WWpGYlBFZmNHX18zU1JHd2FQTU4zZG1HYjZ3YUxyVDVyQXludWNzdDVKWnVyLUdldldUZ04wSzFocmdJWHV3cmtUYzhKZXlRdkk5QlJCWk4yS1RaNFh5UHdEcFJYem14S01XY2RhbTIyRUpqLXdsVkN6eXJXVVYtalZLd0x5U01DaFBHMVd6MmVBbw?oc=5",
+  "source": "Presse",
+  "ref": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcDFRM1lUVFRDNWFlNEo2a0hMWFl6LW01TUVLMXVYamNidWhILWZENVl0WlFSbHc2RTljTmwtSjV2WWpGYlBFZmNHX18zU1JHd2FQTU4zZG1HYjZ3YUxyVDVyQXludWNzdDVKWnVyLUdldldUZ04wSzFocmdJWHV3cmtUYzhKZXlRdkk5QlJCWk4yS1RaNFh5UHdEcFJYem14S01XY2RhbTIyRUpqLXdsVkN6eXJXVVYtalZLd0x5U01DaFBHMVd6MmVBbw?oc=5",
+  "titre": "CAF launches Media Rights Tender for CAF Interclub Competitions in Sub-Saharan Africa for 2026-2028 - CAFOnline.com",
+  "acheteur": "CAFOnline.com",
+  "pays": "",
+  "publie": "2026-11-02",
+  "date_limite": "",
+  "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcDFRM1lUVFRDNWFlNEo2a0hMWFl6LW01TUVLMXVYamNidWhILWZENVl0WlFSbHc2RTljTmwtSjV2WWpGYlBFZmNHX18zU1JHd2FQTU4zZG1HYjZ3YUxyVDVyQXludWNzdDVKWnVyLUdldldUZ04wSzFocmdJWHV3cmtUYzhKZXlRdkk5QlJCWk4yS1RaNFh5UHdEcFJYem14S01XY2RhbTIyRUpqLXdsVkN6eXJXVVYtalZLd0x5U01DaFBHMVd6MmVBbw?oc=5",
+  "type": "Article",
+  "cpv": [],
+  "pourquoi": [
+   "recherche : beIN \"invitation to tender\""
+  ],
+  "comptes": [],
+  "nature": "signal",
+  "resume": "",
+  "vu_le": "2026-11-27"
  },
  {
   "id": "TED:753034-2026",
